@@ -7,7 +7,7 @@ using ClinicApi.Domain.Entities;
 
 namespace ClinicApi.Domain.Core.Interfaces.Repositories
 {
-    public interface IBaseRepository<TEntity> where TEntity : Base
+    public interface IRepository<TEntity> where TEntity : Base
     {
         Task<ICollection<TEntity>> GetAllAsync();
 

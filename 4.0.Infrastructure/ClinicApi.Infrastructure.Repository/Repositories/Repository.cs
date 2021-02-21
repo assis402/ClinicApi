@@ -14,7 +14,7 @@ namespace ClinicApi.Infrastructure.Repository.Repositories
     {
         protected dbContext _dbContext;
 
-        public BaseRepository(dbContext context)
+        public Repository(dbContext context)
         {
             _dbContext = context;
         }
