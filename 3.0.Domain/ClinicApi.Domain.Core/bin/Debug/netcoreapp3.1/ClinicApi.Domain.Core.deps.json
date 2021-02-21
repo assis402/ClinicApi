@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ClinicApi.Domain.Core/1.0.0": {
+        "dependencies": {
+          "ClinicApi.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ClinicApi.Domain.Core.dll": {}
+        }
+      },
+      "ClinicApi.Domain/1.0.0": {
+        "runtime": {
+          "ClinicApi.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClinicApi.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClinicApi.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

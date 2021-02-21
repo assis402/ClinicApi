@@ -1,0 +1,16 @@
+/home/matheus/Desktop/ClinicApi/3.0. Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/ClinicApi.Domain.Core.csprojAssemblyReference.cache
+/home/matheus/Desktop/ClinicApi/3.0. Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/ClinicApi.Domain.Core.AssemblyInfoInputs.cache
+/home/matheus/Desktop/ClinicApi/3.0. Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/ClinicApi.Domain.Core.AssemblyInfo.cs
+/home/matheus/Desktop/ClinicApi/3.0. Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/ClinicApi.Domain.Core.csproj.CoreCompileInputs.cache
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/ClinicApi.Domain.Core.csprojAssemblyReference.cache
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/ClinicApi.Domain.Core.AssemblyInfoInputs.cache
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/ClinicApi.Domain.Core.AssemblyInfo.cs
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/ClinicApi.Domain.Core.csproj.CoreCompileInputs.cache
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/bin/Debug/netcoreapp3.1/ClinicApi.Domain.Core.deps.json
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/bin/Debug/netcoreapp3.1/ClinicApi.Domain.Core.dll
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/bin/Debug/netcoreapp3.1/ClinicApi.Domain.Core.pdb
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/bin/Debug/netcoreapp3.1/ClinicApi.Domain.dll
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/bin/Debug/netcoreapp3.1/ClinicApi.Domain.pdb
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/ClinicApi.Domain.Core.csproj.CopyComplete
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/ClinicApi.Domain.Core.dll
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/ClinicApi.Domain.Core.pdb

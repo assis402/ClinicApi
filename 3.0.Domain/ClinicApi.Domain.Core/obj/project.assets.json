@@ -1,0 +1,86 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ClinicApi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ClinicApi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClinicApi.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClinicApi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ClinicApi.Domain/ClinicApi.Domain.csproj",
+      "msbuildProject": "../ClinicApi.Domain/ClinicApi.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ClinicApi.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/matheus/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/ClinicApi.Domain.Core.csproj",
+      "projectName": "ClinicApi.Domain.Core",
+      "projectPath": "/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/ClinicApi.Domain.Core.csproj",
+      "packagesPath": "/home/matheus/.nuget/packages/",
+      "outputPath": "/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/matheus/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain/ClinicApi.Domain.csproj": {
+              "projectPath": "/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain/ClinicApi.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.406/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

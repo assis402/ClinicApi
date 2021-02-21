@@ -1,0 +1,9 @@
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain/obj/Debug/netcoreapp3.1/ClinicApi.Domain.csprojAssemblyReference.cache
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain/obj/Debug/netcoreapp3.1/ClinicApi.Domain.AssemblyInfoInputs.cache
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain/obj/Debug/netcoreapp3.1/ClinicApi.Domain.AssemblyInfo.cs
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain/obj/Debug/netcoreapp3.1/ClinicApi.Domain.csproj.CoreCompileInputs.cache
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain/bin/Debug/netcoreapp3.1/ClinicApi.Domain.deps.json
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain/bin/Debug/netcoreapp3.1/ClinicApi.Domain.dll
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain/bin/Debug/netcoreapp3.1/ClinicApi.Domain.pdb
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain/obj/Debug/netcoreapp3.1/ClinicApi.Domain.dll
+/home/matheus/Desktop/ClinicApi/3.0.Domain/ClinicApi.Domain/obj/Debug/netcoreapp3.1/ClinicApi.Domain.pdb
