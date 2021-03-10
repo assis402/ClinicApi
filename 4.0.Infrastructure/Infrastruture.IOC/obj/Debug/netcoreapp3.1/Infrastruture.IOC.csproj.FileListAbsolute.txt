@@ -1,0 +1,8 @@
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.IOC/bin/Debug/netcoreapp3.1/Infrastruture.IOC.deps.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.IOC/bin/Debug/netcoreapp3.1/Infrastruture.IOC.dll
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.IOC/bin/Debug/netcoreapp3.1/Infrastruture.IOC.pdb
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.IOC/obj/Debug/netcoreapp3.1/Infrastruture.IOC.csprojAssemblyReference.cache
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.IOC/obj/Debug/netcoreapp3.1/Infrastruture.IOC.AssemblyInfoInputs.cache
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.IOC/obj/Debug/netcoreapp3.1/Infrastruture.IOC.AssemblyInfo.cs
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.IOC/obj/Debug/netcoreapp3.1/Infrastruture.IOC.dll
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.IOC/obj/Debug/netcoreapp3.1/Infrastruture.IOC.pdb

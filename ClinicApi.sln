@@ -5,23 +5,27 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0.Domain", "3.0.Domain", "{440C8123-0310-4D82-8C89-C291A9A16C32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicApi.Domain.Core", "3.0.Domain\ClinicApi.Domain.Core\ClinicApi.Domain.Core.csproj", "{FF8BFFD6-7D6E-4084-8B74-10353F1CD341}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Core", "3.0.Domain\Domain.Core\Domain.Core.csproj", "{FF8BFFD6-7D6E-4084-8B74-10353F1CD341}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicApi.Domain", "3.0.Domain\ClinicApi.Domain\ClinicApi.Domain.csproj", "{150B3488-8E84-40F4-B0F2-A3D39694F2BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "3.0.Domain\Domain\Domain.csproj", "{150B3488-8E84-40F4-B0F2-A3D39694F2BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicApi.Domain.Services", "3.0.Domain\ClinicApi.Domain.Services\ClinicApi.Domain.Services.csproj", "{47032786-936F-4EB8-B8CC-EDF4B56E0D89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Services", "3.0.Domain\Domain.Services\Domain.Services.csproj", "{47032786-936F-4EB8-B8CC-EDF4B56E0D89}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0.Application", "2.0.Application", "{1634C6E0-1F81-4E38-BC17-6CC888AD1DEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicApi.Applicantion", "2.0.Application\ClinicApi.Applicantion\ClinicApi.Applicantion.csproj", "{75D4ACB5-C5CB-433D-BA46-F2FF3E161616}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "2.0.Application\Application\Application.csproj", "{75D4ACB5-C5CB-433D-BA46-F2FF3E161616}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicApi.Applicantion.DTO", "2.0.Application\ClinicApi.Applicantion.DTO\ClinicApi.Applicantion.DTO.csproj", "{DBA25D18-815F-458C-995F-D3D0E271284C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.DTO", "2.0.Application\Application.DTO\Application.DTO.csproj", "{DBA25D18-815F-458C-995F-D3D0E271284C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.0.Infrastructure", "4.0.Infrastructure", "{42866FAA-9C0E-48F7-874C-76413CD3E1F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicApi.Infrastructure.Data", "4.0.Infrastructure\ClinicApi.Infrastructure.Data\ClinicApi.Infrastructure.Data.csproj", "{CA9C5BF0-E65E-48A2-83E2-D28958730C58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Data", "4.0.Infrastructure\Infrastructure.Data\Infrastructure.Data.csproj", "{CA9C5BF0-E65E-48A2-83E2-D28958730C58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicApi.Infrastructure.Repository", "4.0.Infrastructure\ClinicApi.Infrastructure.Repository\ClinicApi.Infrastructure.Repository.csproj", "{C5E01298-729B-40C4-87A0-294B69797DB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Repository", "4.0.Infrastructure\Infrastructure.Repository\Infrastructure.Repository.csproj", "{C5E01298-729B-40C4-87A0-294B69797DB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastruture.Adapter", "4.0.Infrastructure\Infrastruture.Adapter\Infrastruture.Adapter.csproj", "{CED123CF-2B51-419C-8139-53D7842DD9F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastruture.IOC", "4.0.Infrastructure\Infrastruture.IOC\Infrastruture.IOC.csproj", "{FAE111B2-93D0-4917-B23D-835948C11E73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -120,8 +124,34 @@ Global
 		{C5E01298-729B-40C4-87A0-294B69797DB8}.Release|x64.Build.0 = Release|Any CPU
 		{C5E01298-729B-40C4-87A0-294B69797DB8}.Release|x86.ActiveCfg = Release|Any CPU
 		{C5E01298-729B-40C4-87A0-294B69797DB8}.Release|x86.Build.0 = Release|Any CPU
+		{CED123CF-2B51-419C-8139-53D7842DD9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED123CF-2B51-419C-8139-53D7842DD9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED123CF-2B51-419C-8139-53D7842DD9F7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CED123CF-2B51-419C-8139-53D7842DD9F7}.Debug|x64.Build.0 = Debug|Any CPU
+		{CED123CF-2B51-419C-8139-53D7842DD9F7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CED123CF-2B51-419C-8139-53D7842DD9F7}.Debug|x86.Build.0 = Debug|Any CPU
+		{CED123CF-2B51-419C-8139-53D7842DD9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED123CF-2B51-419C-8139-53D7842DD9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED123CF-2B51-419C-8139-53D7842DD9F7}.Release|x64.ActiveCfg = Release|Any CPU
+		{CED123CF-2B51-419C-8139-53D7842DD9F7}.Release|x64.Build.0 = Release|Any CPU
+		{CED123CF-2B51-419C-8139-53D7842DD9F7}.Release|x86.ActiveCfg = Release|Any CPU
+		{CED123CF-2B51-419C-8139-53D7842DD9F7}.Release|x86.Build.0 = Release|Any CPU
+		{FAE111B2-93D0-4917-B23D-835948C11E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE111B2-93D0-4917-B23D-835948C11E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE111B2-93D0-4917-B23D-835948C11E73}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FAE111B2-93D0-4917-B23D-835948C11E73}.Debug|x64.Build.0 = Debug|Any CPU
+		{FAE111B2-93D0-4917-B23D-835948C11E73}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FAE111B2-93D0-4917-B23D-835948C11E73}.Debug|x86.Build.0 = Debug|Any CPU
+		{FAE111B2-93D0-4917-B23D-835948C11E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE111B2-93D0-4917-B23D-835948C11E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAE111B2-93D0-4917-B23D-835948C11E73}.Release|x64.ActiveCfg = Release|Any CPU
+		{FAE111B2-93D0-4917-B23D-835948C11E73}.Release|x64.Build.0 = Release|Any CPU
+		{FAE111B2-93D0-4917-B23D-835948C11E73}.Release|x86.ActiveCfg = Release|Any CPU
+		{FAE111B2-93D0-4917-B23D-835948C11E73}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{FAE111B2-93D0-4917-B23D-835948C11E73} = {42866FAA-9C0E-48F7-874C-76413CD3E1F1}
+		{CED123CF-2B51-419C-8139-53D7842DD9F7} = {42866FAA-9C0E-48F7-874C-76413CD3E1F1}
 		{FF8BFFD6-7D6E-4084-8B74-10353F1CD341} = {440C8123-0310-4D82-8C89-C291A9A16C32}
 		{150B3488-8E84-40F4-B0F2-A3D39694F2BA} = {440C8123-0310-4D82-8C89-C291A9A16C32}
 		{47032786-936F-4EB8-B8CC-EDF4B56E0D89} = {440C8123-0310-4D82-8C89-C291A9A16C32}

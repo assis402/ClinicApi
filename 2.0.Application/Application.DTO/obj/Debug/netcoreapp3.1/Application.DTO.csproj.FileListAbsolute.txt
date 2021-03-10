@@ -1,0 +1,15 @@
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/ClinicApi.Application.DTO/bin/Debug/netcoreapp3.1/Application.DTO.deps.json
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/ClinicApi.Application.DTO/bin/Debug/netcoreapp3.1/Application.DTO.dll
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/ClinicApi.Application.DTO/bin/Debug/netcoreapp3.1/Application.DTO.pdb
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/ClinicApi.Application.DTO/obj/Debug/netcoreapp3.1/Application.DTO.AssemblyInfoInputs.cache
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/ClinicApi.Application.DTO/obj/Debug/netcoreapp3.1/Application.DTO.AssemblyInfo.cs
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/ClinicApi.Application.DTO/obj/Debug/netcoreapp3.1/Application.DTO.dll
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/ClinicApi.Application.DTO/obj/Debug/netcoreapp3.1/Application.DTO.pdb
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/Application.DTO/bin/Debug/netcoreapp3.1/Application.DTO.deps.json
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/Application.DTO/bin/Debug/netcoreapp3.1/Application.DTO.dll
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/Application.DTO/bin/Debug/netcoreapp3.1/Application.DTO.pdb
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/Application.DTO/obj/Debug/netcoreapp3.1/Application.DTO.csprojAssemblyReference.cache
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/Application.DTO/obj/Debug/netcoreapp3.1/Application.DTO.AssemblyInfoInputs.cache
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/Application.DTO/obj/Debug/netcoreapp3.1/Application.DTO.AssemblyInfo.cs
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/Application.DTO/obj/Debug/netcoreapp3.1/Application.DTO.dll
+/home/matheus/Desktop/GitHub/ClinicApi/2.0.Application/Application.DTO/obj/Debug/netcoreapp3.1/Application.DTO.pdb

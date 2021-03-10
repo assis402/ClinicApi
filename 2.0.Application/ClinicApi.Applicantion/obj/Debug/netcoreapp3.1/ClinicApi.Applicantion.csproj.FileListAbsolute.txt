@@ -1,9 +1,0 @@
-/home/matheus/Desktop/ClinicApi/2.0.Application/ClinicApi.Applicantion/bin/Debug/netcoreapp3.1/ClinicApi.Applicantion.deps.json
-/home/matheus/Desktop/ClinicApi/2.0.Application/ClinicApi.Applicantion/bin/Debug/netcoreapp3.1/ClinicApi.Applicantion.dll
-/home/matheus/Desktop/ClinicApi/2.0.Application/ClinicApi.Applicantion/bin/Debug/netcoreapp3.1/ClinicApi.Applicantion.pdb
-/home/matheus/Desktop/ClinicApi/2.0.Application/ClinicApi.Applicantion/obj/Debug/netcoreapp3.1/ClinicApi.Applicantion.csprojAssemblyReference.cache
-/home/matheus/Desktop/ClinicApi/2.0.Application/ClinicApi.Applicantion/obj/Debug/netcoreapp3.1/ClinicApi.Applicantion.AssemblyInfoInputs.cache
-/home/matheus/Desktop/ClinicApi/2.0.Application/ClinicApi.Applicantion/obj/Debug/netcoreapp3.1/ClinicApi.Applicantion.AssemblyInfo.cs
-/home/matheus/Desktop/ClinicApi/2.0.Application/ClinicApi.Applicantion/obj/Debug/netcoreapp3.1/ClinicApi.Applicantion.csproj.CoreCompileInputs.cache
-/home/matheus/Desktop/ClinicApi/2.0.Application/ClinicApi.Applicantion/obj/Debug/netcoreapp3.1/ClinicApi.Applicantion.dll
-/home/matheus/Desktop/ClinicApi/2.0.Application/ClinicApi.Applicantion/obj/Debug/netcoreapp3.1/ClinicApi.Applicantion.pdb

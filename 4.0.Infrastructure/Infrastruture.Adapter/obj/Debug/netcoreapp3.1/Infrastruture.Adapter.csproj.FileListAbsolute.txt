@@ -1,0 +1,13 @@
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/bin/Debug/netcoreapp3.1/Infrastruture.Adapter.deps.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/bin/Debug/netcoreapp3.1/Infrastruture.Adapter.dll
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/bin/Debug/netcoreapp3.1/Infrastruture.Adapter.pdb
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/bin/Debug/netcoreapp3.1/Application.DTO.dll
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/bin/Debug/netcoreapp3.1/Domain.dll
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/bin/Debug/netcoreapp3.1/Application.DTO.pdb
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/obj/Debug/netcoreapp3.1/Infrastruture.Adapter.csprojAssemblyReference.cache
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/obj/Debug/netcoreapp3.1/Infrastruture.Adapter.AssemblyInfoInputs.cache
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/obj/Debug/netcoreapp3.1/Infrastruture.Adapter.AssemblyInfo.cs
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/obj/Debug/netcoreapp3.1/Infrastruture.Adapter.csproj.CopyComplete
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/obj/Debug/netcoreapp3.1/Infrastruture.Adapter.dll
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/obj/Debug/netcoreapp3.1/Infrastruture.Adapter.pdb

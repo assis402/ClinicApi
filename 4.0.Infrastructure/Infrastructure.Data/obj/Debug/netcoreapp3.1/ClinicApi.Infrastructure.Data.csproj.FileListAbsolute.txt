@@ -1,0 +1,15 @@
+/home/matheus/Desktop/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/bin/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.deps.json
+/home/matheus/Desktop/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/bin/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.dll
+/home/matheus/Desktop/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/bin/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.pdb
+/home/matheus/Desktop/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/obj/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.AssemblyInfoInputs.cache
+/home/matheus/Desktop/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/obj/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.AssemblyInfo.cs
+/home/matheus/Desktop/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/obj/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.csproj.CoreCompileInputs.cache
+/home/matheus/Desktop/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/obj/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.dll
+/home/matheus/Desktop/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/obj/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.pdb
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/bin/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.deps.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/bin/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.dll
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/bin/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.pdb
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/obj/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.AssemblyInfoInputs.cache
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/obj/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.AssemblyInfo.cs
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/obj/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.dll
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Data/obj/Debug/netcoreapp3.1/ClinicApi.Infrastructure.Data.pdb
