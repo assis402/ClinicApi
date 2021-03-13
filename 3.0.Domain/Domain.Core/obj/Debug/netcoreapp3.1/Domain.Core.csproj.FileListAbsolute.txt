@@ -1,14 +1,3 @@
 /home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/Domain.Core.csprojAssemblyReference.cache
 /home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/Domain.Core.AssemblyInfoInputs.cache
 /home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/ClinicApi.Domain.Core/obj/Debug/netcoreapp3.1/Domain.Core.AssemblyInfo.cs
-/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain.Core/bin/Debug/netcoreapp3.1/Domain.Core.deps.json
-/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain.Core/bin/Debug/netcoreapp3.1/Domain.Core.dll
-/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain.Core/bin/Debug/netcoreapp3.1/Domain.Core.pdb
-/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain.Core/bin/Debug/netcoreapp3.1/Domain.dll
-/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain.Core/bin/Debug/netcoreapp3.1/Domain.pdb
-/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain.Core/obj/Debug/netcoreapp3.1/Domain.Core.csprojAssemblyReference.cache
-/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain.Core/obj/Debug/netcoreapp3.1/Domain.Core.AssemblyInfoInputs.cache
-/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain.Core/obj/Debug/netcoreapp3.1/Domain.Core.AssemblyInfo.cs
-/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain.Core/obj/Debug/netcoreapp3.1/Domain.Core.csproj.CopyComplete
-/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain.Core/obj/Debug/netcoreapp3.1/Domain.Core.dll
-/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain.Core/obj/Debug/netcoreapp3.1/Domain.Core.pdb

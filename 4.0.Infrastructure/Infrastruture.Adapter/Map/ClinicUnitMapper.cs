@@ -13,13 +13,14 @@ namespace Infrastruture.Adapter.Map
         public ClinicUnit MapperToEntity(ClinicUnitDTO clinicUnitDTO)
         {
             ClinicUnit clinicUnit = new ClinicUnit
-            {
-                CompanyName = clinicUnitDTO.CompanyName,
-                Login = clinicUnitDTO.Login,
-                Password = clinicUnitDTO.Password,
-                CreationDate = DateTime.Now,
-                UpdateDate = DateTime.Now
-            };
+            (
+                clinicUnitDTO.CompanyName,
+                clinicUnitDTO.Login,
+                clinicUnitDTO.Password,
+                DateTime.Now,
+                DateTime.Now,
+                null
+            );
 
             return clinicUnit;
         }

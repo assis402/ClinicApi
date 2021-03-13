@@ -1,16 +1,3 @@
 /home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Repository/obj/Debug/netcoreapp3.1/Infrastructure.Repository.csprojAssemblyReference.cache
 /home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Repository/obj/Debug/netcoreapp3.1/Infrastructure.Repository.AssemblyInfoInputs.cache
 /home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/ClinicApi.Infrastructure.Repository/obj/Debug/netcoreapp3.1/Infrastructure.Repository.AssemblyInfo.cs
-/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Repository/bin/Debug/netcoreapp3.1/Infrastructure.Repository.deps.json
-/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Repository/bin/Debug/netcoreapp3.1/Infrastructure.Repository.dll
-/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Repository/bin/Debug/netcoreapp3.1/Infrastructure.Repository.pdb
-/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Repository/bin/Debug/netcoreapp3.1/Domain.Core.dll
-/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Repository/bin/Debug/netcoreapp3.1/Domain.dll
-/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Repository/bin/Debug/netcoreapp3.1/Domain.Core.pdb
-/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Repository/bin/Debug/netcoreapp3.1/Domain.pdb
-/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Repository/obj/Debug/netcoreapp3.1/Infrastructure.Repository.csprojAssemblyReference.cache
-/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Repository/obj/Debug/netcoreapp3.1/Infrastructure.Repository.AssemblyInfoInputs.cache
-/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Repository/obj/Debug/netcoreapp3.1/Infrastructure.Repository.AssemblyInfo.cs
-/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Repository/obj/Debug/netcoreapp3.1/Infrastructure.Repository.csproj.CopyComplete
-/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Repository/obj/Debug/netcoreapp3.1/Infrastructure.Repository.dll
-/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Repository/obj/Debug/netcoreapp3.1/Infrastructure.Repository.pdb
