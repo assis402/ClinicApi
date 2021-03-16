@@ -13,8 +13,8 @@ namespace Domain.Entities
 
         public ICollection<User> Users { get; private set; }
 
-        public ClinicUnit(string companyName, string login, string password, DateTime createDate, DateTime updateTime, DateTime? deletionDate) 
-        : base(createDate, updateTime, deletionDate)
+        public ClinicUnit(string companyName, string login, string password, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) 
+        : base(creationDate, updateDate, deletionDate)
         {
             CompanyName = companyName;
             Login = login;

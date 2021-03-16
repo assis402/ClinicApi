@@ -1,6 +1,6 @@
 using System;
-using Infrastructure.Repository.Repositories;
 using Domain.Core.Interfaces.Repositories;
+using Infrastructure.Data;
 using Domain.Entities;
 using System.Threading.Tasks;
 

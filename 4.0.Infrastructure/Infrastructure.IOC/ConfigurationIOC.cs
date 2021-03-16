@@ -15,7 +15,7 @@ namespace Infrastructure.IOC
     {
         public static void  Load(ContainerBuilder builder)
         {
-            builder.RegisterType<ApplicationServiceClinicUnit>().As<IApplicationServiceClinicUnit>();    
+            builder.RegisterType<ClinicUnitApplicationService>().As<IClinicUnitApplicationService>();    
 
             builder.RegisterType<ClinicUnitService>().As<IClinicUnitService>();
 

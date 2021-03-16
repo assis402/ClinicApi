@@ -1,0 +1,3 @@
+/home/matheus/Desktop/GitHub/ClinicApi/Infrastructure.Adapter/obj/Debug/netstandard2.0/Infrastructure.Adapter.csprojAssemblyReference.cache
+/home/matheus/Desktop/GitHub/ClinicApi/Infrastructure.Adapter/obj/Debug/netstandard2.0/Infrastructure.Adapter.AssemblyInfoInputs.cache
+/home/matheus/Desktop/GitHub/ClinicApi/Infrastructure.Adapter/obj/Debug/netstandard2.0/Infrastructure.Adapter.AssemblyInfo.cs

@@ -90,8 +90,8 @@
               "/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain/Domain.csproj": {
                 "projectPath": "/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain/Domain.csproj"
               },
-              "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/Infrastruture.Adapter.csproj": {
-                "projectPath": "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/Infrastruture.Adapter.csproj"
+              "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Adapter/Infrastructure.Adapter.csproj": {
+                "projectPath": "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Adapter/Infrastructure.Adapter.csproj"
               }
             }
           }
@@ -245,14 +245,14 @@
         }
       }
     },
-    "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/Infrastruture.Adapter.csproj": {
+    "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Adapter/Infrastructure.Adapter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/Infrastruture.Adapter.csproj",
-        "projectName": "Infrastruture.Adapter",
-        "projectPath": "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/Infrastruture.Adapter.csproj",
+        "projectUniqueName": "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Adapter/Infrastructure.Adapter.csproj",
+        "projectName": "Infrastructure.Adapter",
+        "projectPath": "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Adapter/Infrastructure.Adapter.csproj",
         "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/obj/",
+        "outputPath": "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Adapter/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/matheus/.nuget/NuGet/NuGet.Config"

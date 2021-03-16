@@ -35,7 +35,7 @@
           "bin/placeholder/Domain.Core.dll": {}
         }
       },
-      "Infrastruture.Adapter/1.0.0": {
+      "Infrastructure.Adapter/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -43,10 +43,10 @@
           "Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Infrastruture.Adapter.dll": {}
+          "bin/placeholder/Infrastructure.Adapter.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Infrastruture.Adapter.dll": {}
+          "bin/placeholder/Infrastructure.Adapter.dll": {}
         }
       }
     }
@@ -67,10 +67,10 @@
       "path": "../../3.0.Domain/Domain.Core/Domain.Core.csproj",
       "msbuildProject": "../../3.0.Domain/Domain.Core/Domain.Core.csproj"
     },
-    "Infrastruture.Adapter/1.0.0": {
+    "Infrastructure.Adapter/1.0.0": {
       "type": "project",
-      "path": "../../4.0.Infrastructure/Infrastruture.Adapter/Infrastruture.Adapter.csproj",
-      "msbuildProject": "../../4.0.Infrastructure/Infrastruture.Adapter/Infrastruture.Adapter.csproj"
+      "path": "../../4.0.Infrastructure/Infrastructure.Adapter/Infrastructure.Adapter.csproj",
+      "msbuildProject": "../../4.0.Infrastructure/Infrastructure.Adapter/Infrastructure.Adapter.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -78,7 +78,7 @@
       "Application.DTO >= 1.0.0",
       "Domain >= 1.0.0",
       "Domain.Core >= 1.0.0",
-      "Infrastruture.Adapter >= 1.0.0"
+      "Infrastructure.Adapter >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -114,8 +114,8 @@
             "/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain/Domain.csproj": {
               "projectPath": "/home/matheus/Desktop/GitHub/ClinicApi/3.0.Domain/Domain/Domain.csproj"
             },
-            "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/Infrastruture.Adapter.csproj": {
-              "projectPath": "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastruture.Adapter/Infrastruture.Adapter.csproj"
+            "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Adapter/Infrastructure.Adapter.csproj": {
+              "projectPath": "/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Adapter/Infrastructure.Adapter.csproj"
             }
           }
         }

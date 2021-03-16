@@ -1,5 +1,5 @@
 using Domain.Core.Interfaces.Repositories;
-using Domain.Entities;
+using Infrastructure.Data;
 using System.Linq.Expressions;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -12,13 +12,13 @@ namespace Infrastructure.Repository.Repositories
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
-        private ClinicContext context = null;
+        private ClinicContext db = null;
         DbSet<TEntity> dbSet; 
 
-        public Repository(ClinicContext context)
+        public Repository(ClinicContext db)
         {
-            this.context = context;
-            dbSet = context.Set<TEntity>();
+            this.db = db;
+            dbSet = db.Set<TEntity>();
         }
 
         //private Expression<Func<Base, bool>> Filter()
@@ -53,31 +53,9 @@ namespace Infrastructure.Repository.Repositories
             return await dbSet.Where(match).ToListAsync();
         }
 
-        public async Task DeleteById(int id)
+        public void Update(TEntity entity)
         {
-            TEntity entity = await GetByIdAsync(id);
-            //entity.DeletionDate = DateTime.Now;
-            //dbSet.Remove(entity);
-        }
-
-        public void Delete(TEntity entity)
-        {
-            //entity.DeletionDate = DateTime.Now;
-
-            //dbSet.Remove(entity);
-        }
-
-        public virtual async Task<TEntity> UpdateAsync(TEntity entity, object key)
-        {
-            if (entity == null)
-                return null;
-            TEntity exist = await dbSet.FindAsync(key);
-            if (exist != null)
-            {
-               // dbSet.Entry(exist).CurrentValues.SetValues(entity);
-                //await dbSet.SaveChangesAsync();
-            }
-            return exist;
+            db.Entry(entity).State = EntityState.Modified;
         }
 
         public async Task<int> CountAsync()

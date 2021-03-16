@@ -12,10 +12,10 @@ namespace Domain.Entities
 
         public DateTime? DeletionDate { get; private set; }
 
-        public Base(DateTime createDate, DateTime updateTime, DateTime? deletionDate)
+        public Base(DateTime createDate, DateTime updateDate, DateTime? deletionDate)
         {
             CreationDate = createDate;
-            UpdateDate = updateTime;
+            UpdateDate = updateDate;
             DeletionDate = deletionDate;
         }
     }

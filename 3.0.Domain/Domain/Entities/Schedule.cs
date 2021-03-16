@@ -9,5 +9,12 @@ namespace Domain.Entities
         public User User { get; set; }
 
         public int UserId { get; set; }
+
+        public Schedule(DateTime scheduleDate, int userId, DateTime createDate, DateTime updateTime, DateTime? deletionDate) 
+        : base(createDate, updateTime, deletionDate)
+        {
+            ScheduleDate = scheduleDate;
+            UserId = userId;
+        }  
     }
 }

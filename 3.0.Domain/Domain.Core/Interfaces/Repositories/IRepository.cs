@@ -18,11 +18,7 @@ namespace Domain.Core.Interfaces.Repositories
 
         Task<ICollection<TEntity>> FindAllByExpressionAsync(Expression<Func<TEntity, bool>> match);
 
-        Task DeleteById(int id);
-
-        void Delete(TEntity entity);
-
-        Task<TEntity> UpdateAsync(TEntity entity, object key);
+        void Update(TEntity entity);
 
         Task<int> CountAsync();
     }
