@@ -20,7 +20,8 @@ namespace Infrastructure.Data.Mapping
             builder.Property(c => c.UpdateDate).IsRequired();
             builder.Property(c => c.DeletionDate).IsRequired();
 
-            builder.HasMany(c => c.Users).WithOne(u => u.ClinicUnit).OnDelete(DeleteBehavior.Cascade);
+            builder.HasMany(c => c.Users).WithOne(u => u.ClinicUnit).OnDelete(DeleteBehavior.Restrict);
+            
             builder.ToTable("ClinicUnit");
         }
     }

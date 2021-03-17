@@ -4,17 +4,22 @@ namespace Domain.Entities
 {
     public class Schedule : Base
     {
-        public DateTime ScheduleDate { get; set; }
+        public DateTime ScheduleDate { get; private set; }
 
-        public User User { get; set; }
+        public User User { get; private set; }
 
-        public int UserId { get; set; }
+        public int UserId { get; private set; }
 
-        public Schedule(DateTime scheduleDate, int userId, DateTime createDate, DateTime updateTime, DateTime? deletionDate) 
-        : base(createDate, updateTime, deletionDate)
+        public ClinicUnit ClinicUnit { get; set; }
+
+        public int ClinicUnitId { get; private set; }
+
+        public Schedule(DateTime scheduleDate, int userId, int clinicUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) 
+        : base(creationDate, updateDate, deletionDate)
         {
             ScheduleDate = scheduleDate;
             UserId = userId;
+            ClinicUnitId = clinicUnitId;
         }  
     }
 }

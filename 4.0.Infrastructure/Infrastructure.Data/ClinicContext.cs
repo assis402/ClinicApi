@@ -39,8 +39,8 @@ namespace Infrastructure.Data
             base.OnModelCreating(builder);
 
             builder.ApplyConfiguration(new ClinicUnitMap());
-            //modelBuilder.ApplyConfiguration(new UserMap());
-            //modelBuilder.ApplyConfiguration(new ScheduleMap());
+            builder.ApplyConfiguration(new UserMap());
+            builder.ApplyConfiguration(new ScheduleMap());
         }
     }
 }

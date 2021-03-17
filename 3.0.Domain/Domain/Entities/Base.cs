@@ -18,5 +18,7 @@ namespace Domain.Entities
             UpdateDate = updateDate;
             DeletionDate = deletionDate;
         }
+
+        //public void Delete()
     }
 }

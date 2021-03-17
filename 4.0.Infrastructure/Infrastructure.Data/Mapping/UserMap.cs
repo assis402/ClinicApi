@@ -1,6 +1,3 @@
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -23,8 +20,10 @@ namespace Infrastructure.Data.Mapping
             builder.Property(u => u.UpdateDate).IsRequired();
             builder.Property(u => u.DeletionDate).IsRequired();
 
-            builder.HasMany(u => u.Schedules).WithOne(s => s.User).OnDelete(DeleteBehavior.Cascade);
-            builder.ToTable("ClinicUnit");
+            builder.HasMany(u => u.Schedules).WithOne(s => s.User).OnDelete(DeleteBehavior.Restrict);
+            builder.HasOne(u => u.ClinicUnit).WithMany(c => c.Users).HasForeignKey(u => u.ClinicUnitId);
+
+            builder.ToTable("User");
         }
     }
 }
