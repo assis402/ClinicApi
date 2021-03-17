@@ -29,7 +29,7 @@ namespace Presentation
         public void ConfigureServices(IServiceCollection services)
         {
             var connection = Configuration["Connections:ConnectionString"];
-            services.AddDbContext<ClinicContext>(options => options.UseSqlServer(connection));
+            services.AddDbContext<ClinicContext>(options => options.UseSqlServer(connection, b => b.MigrationsAssembly("Presentation")));
             services.AddMemoryCache();
             services.AddControllers();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
