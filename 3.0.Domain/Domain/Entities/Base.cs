@@ -1,8 +1,9 @@
 using System;
+using System.Collections.Generic;
 
 namespace Domain.Entities
 {
-    public class Base
+    public abstract class Base
     {
         public int Id { get; private set; }
 
@@ -11,6 +12,12 @@ namespace Domain.Entities
         public DateTime UpdateDate { get; private set; }
 
         public DateTime? DeletionDate { get; private set; }
+
+        internal List<string> _errors;
+
+        public IReadOnlyCollection<string> Errors => _errors;
+
+        public abstract bool Validade();
 
         public Base(DateTime createDate, DateTime updateDate, DateTime? deletionDate)
         {

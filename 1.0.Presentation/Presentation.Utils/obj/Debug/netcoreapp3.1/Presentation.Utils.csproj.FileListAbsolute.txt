@@ -1,0 +1,8 @@
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.Utils/bin/Debug/netcoreapp3.1/Presentation.Utils.deps.json
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.Utils/bin/Debug/netcoreapp3.1/Presentation.Utils.dll
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.Utils/bin/Debug/netcoreapp3.1/Presentation.Utils.pdb
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.Utils/obj/Debug/netcoreapp3.1/Presentation.Utils.csprojAssemblyReference.cache
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.Utils/obj/Debug/netcoreapp3.1/Presentation.Utils.AssemblyInfoInputs.cache
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.Utils/obj/Debug/netcoreapp3.1/Presentation.Utils.AssemblyInfo.cs
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.Utils/obj/Debug/netcoreapp3.1/Presentation.Utils.dll
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.Utils/obj/Debug/netcoreapp3.1/Presentation.Utils.pdb

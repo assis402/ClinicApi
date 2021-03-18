@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System;
+using Domain.Validators;
 
 namespace Domain.Entities
 {
@@ -30,6 +31,29 @@ namespace Domain.Entities
             Email = email;
             PhoneNumber = phoneNumber;
             ClinicUnitId = clinicUnitId;
-        } 
+            _errors = new List<string>();
+        }
+
+        public void ChangeName(string name)
+        {
+            Name = name;
+            Validade();
+        }
+
+        public override bool Validade()
+        {
+            var validator = new UserValidator();
+            var validation = validator.Validate(this);
+
+            if(!validation.IsValid)
+            {
+                foreach(var error in validation.Errors)
+                    _errors.Add(error.ErrorMessage);
+
+                throw new Exception("Os seguintes campos estão inválidos:", _errors);
+            }
+
+            return true;
+        }
     }
 }
