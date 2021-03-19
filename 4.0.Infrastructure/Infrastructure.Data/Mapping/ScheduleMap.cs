@@ -12,6 +12,7 @@ namespace Infrastructure.Data.Mapping
         public void Configure(EntityTypeBuilder<Schedule> builder)
         {
             builder.HasKey(s => s.Id);
+            builder.Property(u => u.Id).UseIdentityColumn(1001,1);
 
             builder.Property(s => s.ScheduleDate).IsRequired();
             builder.Property(s => s.UserId).IsRequired();

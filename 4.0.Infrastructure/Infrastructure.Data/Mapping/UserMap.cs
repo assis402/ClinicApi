@@ -9,6 +9,7 @@ namespace Infrastructure.Data.Mapping
         public void Configure(EntityTypeBuilder<User> builder)
         {
             builder.HasKey(u => u.Id);
+            builder.Property(u => u.Id).UseIdentityColumn(1001,1);
 
             builder.Property(u => u.Cpf).IsRequired().HasMaxLength(11);
             builder.Property(u => u.Name).IsRequired().HasMaxLength(250);

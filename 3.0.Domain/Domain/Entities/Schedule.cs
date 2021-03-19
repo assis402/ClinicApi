@@ -1,4 +1,7 @@
 using System;
+using System.Collections.Generic;
+using Domain.Validators;
+using Domain.Exceptions;
 
 namespace Domain.Entities
 {
@@ -20,6 +23,23 @@ namespace Domain.Entities
             ScheduleDate = scheduleDate;
             UserId = userId;
             ClinicUnitId = clinicUnitId;
+            _errors = new List<string>();
         }  
+
+        public override bool Validade()
+        {
+            var validator = new ScheduleValidator();
+            var validation = validator.Validate(this);
+
+            if(!validation.IsValid)
+            {
+                foreach(var error in validation.Errors)
+                    _errors.Add(error.ErrorMessage);
+
+                throw new DomainException("Os seguintes campos estão inválidos:", _errors);
+            }
+
+            return true;
+        }
     }
 }

@@ -12,6 +12,7 @@ namespace Infrastructure.Data.Mapping
         public void Configure(EntityTypeBuilder<ClinicUnit> builder)
         {
             builder.HasKey(c => c.Id);
+            builder.Property(u => u.Id).UseIdentityColumn(1001,1);
 
             builder.Property(c => c.CompanyName).IsRequired().HasMaxLength(250);
             builder.Property(c => c.Login).IsRequired().HasMaxLength(20);

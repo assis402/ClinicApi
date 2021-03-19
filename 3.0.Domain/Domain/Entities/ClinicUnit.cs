@@ -1,5 +1,8 @@
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
+using Domain.Validators;
+using Domain.Exceptions;
+
 
 namespace Domain.Entities
 {
@@ -21,6 +24,23 @@ namespace Domain.Entities
             CompanyName = companyName;
             Login = login;
             Password = password;
+            _errors = new List<string>();
         }  
+
+        public override bool Validade()
+        {
+            var validator = new ClinicUnitValidator();
+            var validation = validator.Validate(this);
+
+            if(!validation.IsValid)
+            {
+                foreach(var error in validation.Errors)
+                    _errors.Add(error.ErrorMessage);
+
+                throw new DomainException("Os seguintes campos estão inválidos:", _errors);
+            }
+
+            return true;
+        }
     }
 }

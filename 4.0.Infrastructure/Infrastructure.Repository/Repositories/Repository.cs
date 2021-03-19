@@ -1,4 +1,5 @@
 using Domain.Core.Interfaces.Repositories;
+using Domain.Entities;
 using Infrastructure.Data;
 using System.Linq.Expressions;
 using System.Collections.Generic;
@@ -10,12 +11,12 @@ using System.Linq;
 namespace Infrastructure.Repository.Repositories
 
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : Base
     {
-        private ClinicContext db = null;
+        private ClinicAppContext db = null;
         DbSet<TEntity> dbSet; 
 
-        public Repository(ClinicContext db)
+        public Repository(ClinicAppContext db)
         {
             this.db = db;
             dbSet = db.Set<TEntity>();
@@ -30,12 +31,14 @@ namespace Infrastructure.Repository.Repositories
 
         public async Task<ICollection<TEntity>> GetAllAsync()
         {
-            return await dbSet.ToListAsync();
+            return await dbSet.AsNoTracking().ToListAsync();
         }
-
+ 
         public async Task<TEntity> GetByIdAsync(int id)
         {
-            return await dbSet.FindAsync(id);
+            return await dbSet.AsNoTracking()
+                              .Where(x=>x.Id == id)
+                              .SingleOrDefaultAsync();
         }
 
         public async Task AddAsync(TEntity entity)
@@ -45,7 +48,9 @@ namespace Infrastructure.Repository.Repositories
 
         public async Task<TEntity> FindByExpressionAsync(Expression<Func<TEntity, bool>> match)
         {
-            return await dbSet.SingleOrDefaultAsync(match);
+            return await dbSet.AsNoTracking()
+                              .Where(match)
+                              .SingleOrDefaultAsync();
         }
 
         public async Task<ICollection<TEntity>> FindAllByExpressionAsync(Expression<Func<TEntity, bool>> match)

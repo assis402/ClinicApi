@@ -1,6 +1,7 @@
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
 using Domain.Validators;
+using Domain.Exceptions;
 
 namespace Domain.Entities
 {
@@ -22,6 +23,12 @@ namespace Domain.Entities
 
         public int ClinicUnitId { get; set; }
 
+        public void ChangeName(string name)
+        {
+            Name = name;
+            Validade();
+        }
+
         public User(string cpf, string password, string name, string email, string phoneNumber, int clinicUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) 
         : base(creationDate, updateDate, deletionDate)
         {
@@ -34,11 +41,6 @@ namespace Domain.Entities
             _errors = new List<string>();
         }
 
-        public void ChangeName(string name)
-        {
-            Name = name;
-            Validade();
-        }
 
         public override bool Validade()
         {
@@ -50,7 +52,7 @@ namespace Domain.Entities
                 foreach(var error in validation.Errors)
                     _errors.Add(error.ErrorMessage);
 
-                throw new Exception("Os seguintes campos estão inválidos:", _errors);
+                throw new DomainException("Os seguintes campos estão inválidos:", _errors);
             }
 
             return true;

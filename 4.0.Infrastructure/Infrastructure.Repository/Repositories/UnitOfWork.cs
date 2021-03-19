@@ -8,14 +8,14 @@ namespace Infrastructure.Repository.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private ClinicContext context = null;
+        private ClinicAppContext context = null;
         private Repository<ClinicUnit> clinicUnitRepository = null;
         private Repository<User> userRepository = null;
         private Repository<Schedule> scheduleRepository = null;
 
         public UnitOfWork()
         {
-            context = new ClinicContext();
+            context = new ClinicAppContext();
         }
 
         public async Task Commit()

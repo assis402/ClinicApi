@@ -29,7 +29,7 @@ namespace Presentation.API
         public void ConfigureServices(IServiceCollection services)
         {
             var connection = Configuration["Connections:ConnectionString"];
-            services.AddDbContext<ClinicContext>(options => options.UseSqlServer(connection, b => b.MigrationsAssembly("Presentation.API")));
+            services.AddDbContext<ClinicAppContext>(options => options.UseSqlServer(connection, x => x.MigrationsAssembly("Infrastructure.Data")));
             services.AddMemoryCache();
             services.AddControllers();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);

@@ -19,9 +19,9 @@ namespace Domain.Entities
 
         public abstract bool Validade();
 
-        public Base(DateTime createDate, DateTime updateDate, DateTime? deletionDate)
+        public Base(DateTime creationDate, DateTime updateDate, DateTime? deletionDate)
         {
-            CreationDate = createDate;
+            CreationDate = creationDate;
             UpdateDate = updateDate;
             DeletionDate = deletionDate;
         }

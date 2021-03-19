@@ -1,3 +1,18 @@
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/appsettings.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/bin/Debug/netcoreapp3.1/appsettings.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/bin/Debug/netcoreapp3.1/Presentation.API.deps.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/bin/Debug/netcoreapp3.1/Presentation.API.runtimeconfig.dev.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/bin/Debug/netcoreapp3.1/Presentation.API.runtimeconfig.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/Presentation.API
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/Presentation.API.deps.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/Presentation.API.runtimeconfig.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/Presentation.API.runtimeconfig.dev.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/Presentation.API.dll
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/Presentation.API.pdb
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/appsettings.json
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
@@ -9,6 +24,7 @@
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Presentation.API.pdb
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Autofac.dll
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Autofac.Extensions.DependencyInjection.dll
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/FluentValidation.dll
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Razor.Language.dll
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
@@ -116,7 +132,6 @@
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Domain.dll
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Domain.Services.dll
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Infrastructure.Adapter.dll
-/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Infrastructure.Data.dll
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Infrastructure.IOC.dll
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Infrastructure.Repository.dll
 /home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Presentation.Utils.dll

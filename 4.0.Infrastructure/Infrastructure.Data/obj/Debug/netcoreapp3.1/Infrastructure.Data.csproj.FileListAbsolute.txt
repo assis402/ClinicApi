@@ -10,6 +10,13 @@
 /home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/Infrastructure.Data.pdb
 /home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/Domain.dll
 /home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/Infrastructure.Data.runtimeconfig.json
+/home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/bin/Debug/netcoreapp3.1/Infrastructure.Data.runtimeconfig.dev.json
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Infrastructure.Data.deps.json
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Infrastructure.Data.runtimeconfig.json
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Infrastructure.Data.runtimeconfig.dev.json
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Infrastructure.Data.dll
+/home/matheus/Desktop/GitHub/ClinicApi/1.0.Presentation/Presentation.API/bin/Debug/netcoreapp3.1/Infrastructure.Data.pdb
 /home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/obj/Debug/netcoreapp3.1/Infrastructure.Data.csprojAssemblyReference.cache
 /home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/obj/Debug/netcoreapp3.1/Infrastructure.Data.AssemblyInfoInputs.cache
 /home/matheus/Desktop/GitHub/ClinicApi/4.0.Infrastructure/Infrastructure.Data/obj/Debug/netcoreapp3.1/Infrastructure.Data.AssemblyInfo.cs
