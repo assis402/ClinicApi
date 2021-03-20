@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3ApkFEltLwyyJueapWkbdynXtU+BWlcfc4qsWgM2TrPCBromoKyfjXB8wcUk9b+9c+YYPat8lt4KwuHoPWKm6A==",
+  "success": true,
+  "projectFilePath": "/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/Application.DTO.csproj",
+  "expectedPackageFiles": [
+    "/home/matheus/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
