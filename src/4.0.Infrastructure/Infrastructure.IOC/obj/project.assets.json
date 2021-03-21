@@ -14,6 +14,18 @@
           "lib/net5.0/Autofac.dll": {}
         }
       },
+      "Extensions.FluentValidation.Br/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "7.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.Extensions.Br.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.Extensions.Br.dll": {}
+        }
+      },
       "FluentValidation/9.5.3": {
         "type": "package",
         "compile": {
@@ -1533,6 +1545,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Extensions.FluentValidation.Br": "1.0.1",
+          "Presentation.Utils": "1.0.0",
           "fluentvalidation": "9.5.3"
         },
         "compile": {
@@ -1615,6 +1629,20 @@
         "runtime": {
           "bin/placeholder/Infrastructure.Repository.dll": {}
         }
+      },
+      "Presentation.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Application.DTO": "1.0.0",
+          "FluentValidation": "9.5.3"
+        },
+        "compile": {
+          "bin/placeholder/Presentation.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Presentation.Utils.dll": {}
+        }
       }
     }
   },
@@ -1638,6 +1666,18 @@
         "lib/netstandard2.1/Autofac.dll",
         "lib/netstandard2.1/Autofac.pdb",
         "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
+    "Extensions.FluentValidation.Br/1.0.1": {
+      "sha512": "ZwLlSdrk41U2L9uPj+E5kB4zyICfuXEoBq15OgVkAOwcfH0re763dhVZbCAxOFhPAnIwFDynrfBX0mwVrpRITw==",
+      "type": "package",
+      "path": "extensions.fluentvalidation.br/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "extensions.fluentvalidation.br.1.0.1.nupkg.sha512",
+        "extensions.fluentvalidation.br.nuspec",
+        "lib/netstandard2.0/FluentValidation.Extensions.Br.dll"
       ]
     },
     "FluentValidation/9.5.3": {
@@ -5906,6 +5946,11 @@
       "type": "project",
       "path": "../Infrastructure.Repository/Infrastructure.Repository.csproj",
       "msbuildProject": "../Infrastructure.Repository/Infrastructure.Repository.csproj"
+    },
+    "Presentation.Utils/1.0.0": {
+      "type": "project",
+      "path": "../../1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj",
+      "msbuildProject": "../../1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {

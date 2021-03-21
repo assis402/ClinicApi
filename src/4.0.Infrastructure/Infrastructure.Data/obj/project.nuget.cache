@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wujgW6DL0a5M4ozT+iXxH3v+NqX05RhdclbYMZA5yKebIy3UbcpTy5CKY4GR5WLvhJ+fV7pnFMSz3rvCQkWDLg==",
+  "dgSpecHash": "Es6mb6pmfWGeswF8hmAZn97EFiPneaqSMHYWEo4/2zqgKQGEcDlpQtAfVFGnpGS6nLgIThG5Np0keWL4CcKUtQ==",
   "success": true,
   "projectFilePath": "/home/matheus/Desktop/ClinicApi/src/4.0.Infrastructure/Infrastructure.Data/Infrastructure.Data.csproj",
   "expectedPackageFiles": [
+    "/home/matheus/.nuget/packages/extensions.fluentvalidation.br/1.0.1/extensions.fluentvalidation.br.1.0.1.nupkg.sha512",
     "/home/matheus/.nuget/packages/fluentvalidation/9.5.3/fluentvalidation.9.5.3.nupkg.sha512",
     "/home/matheus/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/matheus/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

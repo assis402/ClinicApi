@@ -21,7 +21,7 @@ namespace Infrastructure.Data.Mapping
             builder.Property(s => s.DeletionDate).IsRequired();
 
             builder.HasOne(s => s.User).WithMany(c => c.Schedules).HasForeignKey(u => u.UserId);
-            builder.HasOne(s => s.ClinicUnit).WithMany(c => c.Schedules).HasForeignKey(u => u.ClinicUnitId);
+            builder.HasOne(s => s.ClinicalUnit).WithMany(c => c.Schedules).HasForeignKey(u => u.ClinicalUnitId);
 
             builder.ToTable("Schedule");
         }

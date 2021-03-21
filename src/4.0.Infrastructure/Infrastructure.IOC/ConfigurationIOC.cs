@@ -15,16 +15,16 @@ namespace Infrastructure.IOC
     {
         public static void  Load(ContainerBuilder builder)
         {
-            builder.RegisterType<ClinicUnitApplicationService>().As<IClinicUnitApplicationService>();    
+            builder.RegisterType<ClinicalUnitApplicationService>().As<IClinicalUnitApplicationService>();    
 
-            builder.RegisterType<ClinicUnitService>().As<IClinicUnitService>();
+            builder.RegisterType<ClinicalUnitService>().As<IClinicalUnitService>();
 
-            builder.RegisterType<Repository<ClinicUnit>>().As<IRepository<ClinicUnit>>();
+            builder.RegisterType<Repository<ClinicalUnit>>().As<IRepository<ClinicalUnit>>();
             builder.RegisterType<Repository<Schedule>>().As<IRepository<Schedule>>();
             builder.RegisterType<Repository<User>>().As<IRepository<User>>();
             builder.RegisterType<UnitOfWork>().As<IUnitOfWork>();
 
-            builder.RegisterType<ClinicUnitMapper>().As<IClinicUnitMapper>();
+            builder.RegisterType<ClinicalUnitMapper>().As<IClinicalUnitMapper>();
         }
     }
 }

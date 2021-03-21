@@ -3,10 +3,10 @@ using System.Threading.Tasks;
 
 namespace Application.Interfaces
 {
-    public interface IClinicUnitApplicationService
+    public interface IClinicalUnitApplicationService
     {
-         Task InsertClinicUnit(ClinicUnitDTO clinicUnitDTO);
+         Task InsertClinicalUnit(ClinicalUnitDTO ClinicalUnitDTO);
 
-         Task<ClinicUnitDTO> GetClinicUnitById(int clinicUnitId);
+         Task<ClinicalUnitDTO> GetClinicalUnitById(int ClinicalUnitId);
     }
 }

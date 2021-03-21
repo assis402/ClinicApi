@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Domain.Validators;
 using Domain.Exceptions;
+using Presentation.Utils.Messages;
 
 namespace Domain.Entities
 {
@@ -13,30 +14,35 @@ namespace Domain.Entities
 
         public int UserId { get; private set; }
 
-        public ClinicUnit ClinicUnit { get; set; }
+        public ClinicalUnit ClinicalUnit { get; set; }
 
-        public int ClinicUnitId { get; private set; }
+        public int ClinicalUnitId { get; private set; }
 
-        public Schedule(DateTime scheduleDate, int userId, int clinicUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) 
+        public Schedule(DateTime scheduleDate, int userId, int clinicalUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) 
         : base(creationDate, updateDate, deletionDate)
         {
             ScheduleDate = scheduleDate;
             UserId = userId;
-            ClinicUnitId = clinicUnitId;
+            ClinicalUnitId = clinicalUnitId;
             _errors = new List<string>();
         }  
 
-        public override bool Validade()
+        public override bool Validate()
         {
-            var validator = new ScheduleValidator();
-            var validation = validator.Validate(this);
+            var baseValidator = new BaseValidator();
+            var baseValidation = baseValidator.Validate(this);
+            var entityValidator = new ScheduleValidator();
+            var entityValidation = entityValidator.Validate(this);
 
-            if(!validation.IsValid)
+            if(!baseValidation.IsValid || !entityValidation.IsValid)
             {
-                foreach(var error in validation.Errors)
+                foreach(var error in baseValidation.Errors)
                     _errors.Add(error.ErrorMessage);
 
-                throw new DomainException("Os seguintes campos estão inválidos:", _errors);
+                foreach(var error in entityValidation.Errors)
+                    _errors.Add(error.ErrorMessage);
+
+                throw new DomainException(ExceptionMessages.EXC014(), _errors);
             }
 
             return true;

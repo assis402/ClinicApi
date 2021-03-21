@@ -2,12 +2,13 @@ using System;
 using System.Collections.Generic;
 using Domain.Validators;
 using Domain.Exceptions;
+using Presentation.Utils.Messages;
 
 namespace Domain.Entities
 {
     public class User : Base
     {
-        public string Cpf { get; set; }
+        public string TaxNumber { get; set; }
 
         public string Password { get; set; }
 
@@ -19,40 +20,45 @@ namespace Domain.Entities
 
         public ICollection<Schedule> Schedules { get; set; }
 
-        public ClinicUnit ClinicUnit { get; set; }
+        public ClinicalUnit ClinicalUnit { get; set; }
 
-        public int ClinicUnitId { get; set; }
+        public int ClinicalUnitId { get; set; }
 
         public void ChangeName(string name)
         {
             Name = name;
-            Validade();
+            Validate();
         }
 
-        public User(string cpf, string password, string name, string email, string phoneNumber, int clinicUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) 
+        public User(string taxNumber, string password, string name, string email, string phoneNumber, int clinicalUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) 
         : base(creationDate, updateDate, deletionDate)
         {
-            Cpf = cpf;
+            TaxNumber = taxNumber;
             Password = password;
             Name = name;
             Email = email;
             PhoneNumber = phoneNumber;
-            ClinicUnitId = clinicUnitId;
+            ClinicalUnitId = clinicalUnitId;
             _errors = new List<string>();
         }
 
 
-        public override bool Validade()
+        public override bool Validate()
         {
-            var validator = new UserValidator();
-            var validation = validator.Validate(this);
+            var baseValidator = new BaseValidator();
+            var baseValidation = baseValidator.Validate(this);
+            var entityValidator = new UserValidator();
+            var entityValidation = entityValidator.Validate(this);
 
-            if(!validation.IsValid)
+            if(!baseValidation.IsValid || !entityValidation.IsValid)
             {
-                foreach(var error in validation.Errors)
+                foreach(var error in baseValidation.Errors)
                     _errors.Add(error.ErrorMessage);
 
-                throw new DomainException("Os seguintes campos estão inválidos:", _errors);
+                foreach(var error in entityValidation.Errors)
+                    _errors.Add(error.ErrorMessage);
+
+                throw new DomainException(ExceptionMessages.EXC014(), _errors);
             }
 
             return true;

@@ -4,6 +4,132 @@
     "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain.Services/Domain.Services.csproj": {}
   },
   "projects": {
+    "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj",
+        "projectName": "Presentation.Utils",
+        "projectPath": "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.Utils/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/Application.DTO.csproj": {
+                "projectPath": "/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/Application.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/Application.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/Application.DTO.csproj",
+        "projectName": "Application.DTO",
+        "projectPath": "/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/Application.DTO.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain.Core/Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -155,7 +281,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj": {
+                "projectPath": "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -168,6 +298,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Extensions.FluentValidation.Br": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "fluentvalidation": {
               "target": "Package",
               "version": "[9.5.3, )"

@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Extensions.FluentValidation.Br/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "7.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.Extensions.Br.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.Extensions.Br.dll": {}
+        }
+      },
       "FluentValidation/9.5.3": {
         "type": "package",
         "compile": {
@@ -1491,10 +1503,22 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Application.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Application.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.DTO.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Extensions.FluentValidation.Br": "1.0.1",
+          "Presentation.Utils": "1.0.0",
           "fluentvalidation": "9.5.3"
         },
         "compile": {
@@ -1532,10 +1556,36 @@
         "runtime": {
           "bin/placeholder/Infrastructure.Data.dll": {}
         }
+      },
+      "Presentation.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Application.DTO": "1.0.0",
+          "FluentValidation": "9.5.3"
+        },
+        "compile": {
+          "bin/placeholder/Presentation.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Presentation.Utils.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Extensions.FluentValidation.Br/1.0.1": {
+      "sha512": "ZwLlSdrk41U2L9uPj+E5kB4zyICfuXEoBq15OgVkAOwcfH0re763dhVZbCAxOFhPAnIwFDynrfBX0mwVrpRITw==",
+      "type": "package",
+      "path": "extensions.fluentvalidation.br/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "extensions.fluentvalidation.br.1.0.1.nupkg.sha512",
+        "extensions.fluentvalidation.br.nuspec",
+        "lib/netstandard2.0/FluentValidation.Extensions.Br.dll"
+      ]
+    },
     "FluentValidation/9.5.3": {
       "sha512": "BataCga/cwQUeo9yy8dzDnihx3N5l1+wj6kEQOkdQ5FIsSFcWD/UjdPJ2jNKODSPAtYuDH5KLM5IBrr1UCNf/A==",
       "type": "package",
@@ -5763,6 +5813,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Application.DTO/1.0.0": {
+      "type": "project",
+      "path": "../../2.0.Application/Application.DTO/Application.DTO.csproj",
+      "msbuildProject": "../../2.0.Application/Application.DTO/Application.DTO.csproj"
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../../3.0.Domain/Domain/Domain.csproj",
@@ -5777,6 +5832,11 @@
       "type": "project",
       "path": "../Infrastructure.Data/Infrastructure.Data.csproj",
       "msbuildProject": "../Infrastructure.Data/Infrastructure.Data.csproj"
+    },
+    "Presentation.Utils/1.0.0": {
+      "type": "project",
+      "path": "../../1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj",
+      "msbuildProject": "../../1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {

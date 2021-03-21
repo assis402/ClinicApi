@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Xsl7MKnHHFWuqRK1H8S0XSePYDump/9G0kutToaAD+WLnUSIQ/3BPzTmYLYQ9kfZl9YS4MjTe9LGhAy2SfZh0g==",
+  "dgSpecHash": "2LgwtRqQ0d7Y8wJ0E8BgLUgdmnqGbKdO6vRmDfmJ5hJnu6apCBwpi2Pgu+uYIulAFmMFodThEOIA856nVVC/9g==",
   "success": true,
   "projectFilePath": "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.API/Presentation.API.csproj",
   "expectedPackageFiles": [
     "/home/matheus/.nuget/packages/autofac/6.1.0/autofac.6.1.0.nupkg.sha512",
     "/home/matheus/.nuget/packages/autofac.extensions.dependencyinjection/7.1.0/autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
+    "/home/matheus/.nuget/packages/extensions.fluentvalidation.br/1.0.1/extensions.fluentvalidation.br.1.0.1.nupkg.sha512",
     "/home/matheus/.nuget/packages/fluentvalidation/9.5.3/fluentvalidation.9.5.3.nupkg.sha512",
     "/home/matheus/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/matheus/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

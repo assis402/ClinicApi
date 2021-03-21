@@ -7,27 +7,27 @@ using Infrastructure.Adapter.Interfaces;
 
 namespace Application.Services
 {
-    public class ClinicUnitApplicationService : IClinicUnitApplicationService
+    public class ClinicalUnitApplicationService : IClinicalUnitApplicationService
     {
-        private readonly IClinicUnitMapper clinicUnitMapper;
-        private readonly IClinicUnitService clinicUnitService;
+        private readonly IClinicalUnitMapper ClinicalUnitMapper;
+        private readonly IClinicalUnitService ClinicalUnitService;
 
-        public ClinicUnitApplicationService(IClinicUnitMapper clinicUnitMapper, IClinicUnitService clinicUnitService)
+        public ClinicalUnitApplicationService(IClinicalUnitMapper ClinicalUnitMapper, IClinicalUnitService ClinicalUnitService)
         {
-            this.clinicUnitMapper = clinicUnitMapper;
-            this.clinicUnitService = clinicUnitService;    
+            this.ClinicalUnitMapper = ClinicalUnitMapper;
+            this.ClinicalUnitService = ClinicalUnitService;    
         }
 
-        public async Task InsertClinicUnit(ClinicUnitDTO clinicUnitDTO)
+        public async Task InsertClinicalUnit(ClinicalUnitDTO ClinicalUnitDTO)
         {
-            ClinicUnit clinicUnit = clinicUnitMapper.MapperToEntity(clinicUnitDTO);
-            await clinicUnitService.InsertClinicUnit(clinicUnit);
+            ClinicalUnit ClinicalUnit = ClinicalUnitMapper.MapperToEntity(ClinicalUnitDTO);
+            await ClinicalUnitService.InsertClinicalUnit(ClinicalUnit);
         }
 
-        public async Task<ClinicUnitDTO> GetClinicUnitById(int clinicUnitId)
+        public async Task<ClinicalUnitDTO> GetClinicalUnitById(int ClinicalUnitId)
         {
-            ClinicUnit clinicUnit = await clinicUnitService.GetClinicUnitById(clinicUnitId);
-            return clinicUnitMapper.MapperToDTO(clinicUnit);
+            ClinicalUnit ClinicalUnit = await ClinicalUnitService.GetClinicalUnitById(ClinicalUnitId);
+            return ClinicalUnitMapper.MapperToDTO(ClinicalUnit);
         }
     }
 }

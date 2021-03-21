@@ -1,5 +1,6 @@
 using FluentValidation;
 using Domain.Entities;
+using Presentation.Utils.Messages;
 
 namespace Domain.Validators
 {
@@ -9,10 +10,10 @@ namespace Domain.Validators
         {
             RuleFor(x => x)
                 .NotEmpty()
-                .WithMessage("A entidade não pode ser vazia.")
+                .WithMessage(ExceptionMessages.EXC001(nameof(Schedule)))
 
                 .NotNull()
-                .WithMessage("A entidade não pode ser nula.");
+                .WithMessage(ExceptionMessages.EXC002(nameof(Schedule)));
         }
     }
 }

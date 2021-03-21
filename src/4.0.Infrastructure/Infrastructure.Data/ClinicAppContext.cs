@@ -6,7 +6,7 @@ namespace Infrastructure.Data
 {
     public partial class ClinicAppContext : DbContext
     {
-        public DbSet<User> ClinicUnit { get; set; }
+        public DbSet<User> ClinicalUnit { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<User> Schedule { get; set; }
 
@@ -14,7 +14,7 @@ namespace Infrastructure.Data
         {
         }
 
-        public ClinicAppContext(DbContextOptions<ClinicAppContext> options) : base(options)
+        public ClinicAppContext(DbContextOptions options) : base(options)
         {
         }
 
@@ -38,7 +38,7 @@ namespace Infrastructure.Data
         {
             base.OnModelCreating(builder);
 
-            builder.ApplyConfiguration(new ClinicUnitMap());
+            builder.ApplyConfiguration(new ClinicalUnitMap());
             builder.ApplyConfiguration(new UserMap());
             builder.ApplyConfiguration(new ScheduleMap());
         }

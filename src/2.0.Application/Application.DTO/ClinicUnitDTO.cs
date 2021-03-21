@@ -1,11 +1,9 @@
 namespace Application.DTO
 {
-    public class ClinicUnitDTO
+    public class ClinicalUnitDTO
     {
         public string CompanyName { get; set; }
 
-        public string Login { get; set; }
-
-        public string Password { get; set; }
+        public string TaxNumber { get; set; }
     }
 }

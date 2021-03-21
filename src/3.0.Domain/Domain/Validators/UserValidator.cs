@@ -1,5 +1,7 @@
 using FluentValidation;
 using Domain.Entities;
+using Presentation.Utils.Messages;
+using Presentation.Utils;
 
 namespace Domain.Validators
 {
@@ -9,52 +11,85 @@ namespace Domain.Validators
         {
             RuleFor(x => x)
                 .NotEmpty()
-                .WithMessage("A entidade não pode ser vazia.")
+                .WithMessage(ExceptionMessages.EXC001(nameof(User)))
 
                 .NotNull()
-                .WithMessage("A entidade não pode ser nula.");
-            
+                .WithMessage(ExceptionMessages.EXC002(nameof(User)));
+
+            RuleFor(x => x.TaxNumber)
+                .NotEmpty()
+                .WithMessage(ExceptionMessages.EXC003(nameof(User.TaxNumber)))
+
+                .NotNull()
+                .WithMessage(ExceptionMessages.EXC004(nameof(User.TaxNumber)))
+
+                .Length(11)
+                .WithMessage(ExceptionMessages.EXC013(nameof(User.TaxNumber),11))
+
+                .Must(x => UsefulFunctions.IsValidCPF(x))
+                .WithMessage(ExceptionMessages.EXC007(nameof(User.TaxNumber)));
+
+            RuleFor(x => x.Password)
+                .NotEmpty()
+                .WithMessage(ExceptionMessages.EXC003(nameof(User.Password)))
+
+                .NotNull()
+                .WithMessage(ExceptionMessages.EXC004(nameof(User.Password)))
+
+                .MinimumLength(10)
+                .WithMessage(ExceptionMessages.EXC005(nameof(User.Password),10))
+
+                .MaximumLength(30)
+                .WithMessage(ExceptionMessages.EXC006(nameof(User.Password),30));
+
             RuleFor(x => x.Name)
                 .NotEmpty()
-                .WithMessage("O nome não pode ser vazia.")
+                .WithMessage(ExceptionMessages.EXC003(nameof(User.Name)))
 
                 .NotNull()
-                .WithMessage("O nome não pode ser nulo.")
+                .WithMessage(ExceptionMessages.EXC004(nameof(User.Name)))
 
                 .MinimumLength(3)
-                .WithMessage("O nome deve ter no mínimo 3 caracteres.")
+                .WithMessage(ExceptionMessages.EXC005(nameof(User.Name),3))
 
                 .MaximumLength(180)
-                .WithMessage("O nome deve ter no mínimo 80 caracteres.");
+                .WithMessage(ExceptionMessages.EXC006(nameof(User.Name),180));
 
             RuleFor(x => x.Email)
                 .NotEmpty()
-                .WithMessage("O e-mail não pode ser vazia.")
+                .WithMessage(ExceptionMessages.EXC003(nameof(User.Email)))
 
                 .NotNull()
-                .WithMessage("O e-mail não pode ser nulo.")
+                .WithMessage(ExceptionMessages.EXC004(nameof(User.Email)))
 
                 .MinimumLength(6)
-                .WithMessage("O e-mail deve ter no mínimo 6 caracteres.")
+                .WithMessage(ExceptionMessages.EXC005(nameof(User.Email),6))
 
                 .MaximumLength(180)
-                .WithMessage("O e-mail deve ter no mínimo 180 caracteres.")
+                .WithMessage(ExceptionMessages.EXC006(nameof(User.Email),180))
 
                 .Matches(@"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$")
-                .WithMessage("O e-mail informado não é válido.");
-            
-            RuleFor(x => x.Password)
+                .WithMessage(ExceptionMessages.EXC007(nameof(User.Email)));
+
+            RuleFor(x => x.PhoneNumber)
                 .NotEmpty()
-                .WithMessage("A senha não pode ser vazia.")
+                .WithMessage(ExceptionMessages.EXC003(nameof(User.PhoneNumber)))
 
                 .NotNull()
-                .WithMessage("A senha não pode ser nulo.")
+                .WithMessage(ExceptionMessages.EXC004(nameof(User.PhoneNumber)))
 
-                .MinimumLength(10)
-                .WithMessage("A senha deve ter no mínimo  caracteres.")
+                .Length(11)
+                .WithMessage(ExceptionMessages.EXC013(nameof(User.PhoneNumber),11));
 
-                .MaximumLength(180)
-                .WithMessage("A senha deve ter no mínimo 30 caracteres.");
+            RuleFor(x => x.ClinicalUnitId)
+                .NotEmpty()
+                .WithMessage(ExceptionMessages.EXC003(nameof(Base.Id)))
+
+                .NotNull()
+                .WithMessage(ExceptionMessages.EXC004(nameof(Base.Id)))
+                
+                .LessThan(100001)
+                .WithMessage(ExceptionMessages.EXC013(nameof(Base.Id),6));
         }
     }
 }

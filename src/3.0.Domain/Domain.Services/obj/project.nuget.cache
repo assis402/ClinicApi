@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6TnRpSCehmr01tn9ZdtxpT+777SBdP8k8db6YYo3BBcYjDVQzIBxqkDaJue2Vd53bxiE7dNyeGQMt8LkOxpq8w==",
+  "dgSpecHash": "R+Ias5kGdj/cNnZId8YPps93i13k5uaqDUfYP/PlF8eLMXTs53thlCHVXwUNEQwoncDqIwxWQRjjJhpMQlfrXw==",
   "success": true,
   "projectFilePath": "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain.Services/Domain.Services.csproj",
   "expectedPackageFiles": [
+    "/home/matheus/.nuget/packages/extensions.fluentvalidation.br/1.0.1/extensions.fluentvalidation.br.1.0.1.nupkg.sha512",
     "/home/matheus/.nuget/packages/fluentvalidation/9.5.3/fluentvalidation.9.5.3.nupkg.sha512",
     "/home/matheus/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/matheus/.nuget/packages/microsoft.data.sqlclient/2.0.1/microsoft.data.sqlclient.2.0.1.nupkg.sha512",

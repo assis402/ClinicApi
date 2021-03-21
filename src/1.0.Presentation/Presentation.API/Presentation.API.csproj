@@ -31,6 +31,7 @@
     <ProjectReference Include="..\..\4.0.Infrastructure\Infrastructure.Data\Infrastructure.Data.csproj" />
     <ProjectReference Include="..\..\4.0.Infrastructure\Infrastructure.IOC\Infrastructure.IOC.csproj" />
     <ProjectReference Include="..\..\4.0.Infrastructure\Infrastructure.Repository\Infrastructure.Repository.csproj" />
+    <ProjectReference Include="..\Presentation.Utils\Presentation.Utils.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,7 +7,7 @@ namespace Domain.Core.Interfaces.Repositories
 {
     public interface IUnitOfWork : IDisposable
     {
-        IRepository<ClinicUnit> ClinicUnitRepository { get; }
+        IRepository<ClinicalUnit> ClinicalUnitRepository { get; }
         IRepository<User> UserRepository { get; }
         IRepository<Schedule> ScheduleRepository { get; }
         Task Commit();

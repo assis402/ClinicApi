@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QZUfdMV9mxmOy7/ozFm89FgYJ/JYNS4WKyqRhfGQ1hT4AOD6lxe87W1Mf4DyXqbeQyfyo39YW+LesMsU+Vw1ag==",
+  "dgSpecHash": "5XoKlbQ4Kye8ad89NwX+VvkgbxMd6typdtufz9YNQUZa/I+jUDtWmZHnceOFMNNl9lLHkwApc72Gy7+GntfQYw==",
   "success": true,
   "projectFilePath": "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/Domain.csproj",
   "expectedPackageFiles": [
+    "/home/matheus/.nuget/packages/extensions.fluentvalidation.br/1.0.1/extensions.fluentvalidation.br.1.0.1.nupkg.sha512",
     "/home/matheus/.nuget/packages/fluentvalidation/9.5.3/fluentvalidation.9.5.3.nupkg.sha512",
     "/home/matheus/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
   ],

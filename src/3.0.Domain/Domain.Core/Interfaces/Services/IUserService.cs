@@ -14,7 +14,7 @@ namespace Domain.Core.Interfaces.Services
 
         //Task<User> GetUserByCPF(string cpf);
 
-        //Task<ICollection<User>> GetAllUsersByClinicUnitId(int clinicUnitId);
+        //Task<ICollection<User>> GetAllUsersByClinicalUnitId(int ClinicalUnitId);
 
         //Task<bool> CPFAlreadyUsed(string cpf);
     }

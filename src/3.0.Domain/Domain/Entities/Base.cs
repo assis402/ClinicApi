@@ -17,7 +17,7 @@ namespace Domain.Entities
 
         public IReadOnlyCollection<string> Errors => _errors;
 
-        public abstract bool Validade();
+        public abstract bool Validate();
 
         public Base(DateTime creationDate, DateTime updateDate, DateTime? deletionDate)
         {

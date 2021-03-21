@@ -9,7 +9,7 @@ namespace Infrastructure.Repository
     public class UnitOfWork : IUnitOfWork
     {
         private ClinicAppContext context = null;
-        private Repository<ClinicUnit> clinicUnitRepository = null;
+        private Repository<ClinicalUnit> clinicalUnitRepository = null;
         private Repository<User> userRepository = null;
         private Repository<Schedule> scheduleRepository = null;
 
@@ -23,15 +23,15 @@ namespace Infrastructure.Repository
             await context.SaveChangesAsync();
         }
 
-        public IRepository<ClinicUnit> ClinicUnitRepository
+        public IRepository<ClinicalUnit> ClinicalUnitRepository
         {
             get
             {
-                if (clinicUnitRepository == null)
+                if (ClinicalUnitRepository == null)
                 {
-                    clinicUnitRepository = new Repository<ClinicUnit>(context);
+                    clinicalUnitRepository = new Repository<ClinicalUnit>(context);
                 }
-                return clinicUnitRepository;
+                return ClinicalUnitRepository;
             }
         }
 

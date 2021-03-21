@@ -7,9 +7,9 @@ namespace Domain.Core.Interfaces.Services
     {
         Task<string> InsertSchedule(Schedule schedule);
 
-        Task<ClinicUnit> GetScheduleByUserId(int scheduleId);
+        Task<ClinicalUnit> GetScheduleByUserId(int scheduleId);
 
-        Task<ClinicUnit> GetAllSchedulesByClinicUnitId(int clinicUnitId);
+        Task<ClinicalUnit> GetAllSchedulesByClinicalUnitId(int ClinicalUnitId);
 
         Task<string> Reschedule(Schedule schedule);
 
