@@ -14,13 +14,6 @@ namespace Presentation.Utils.JsonModels.Models.ClinicalUnitController
 
         public JsonPost()
         {
-            
-        }
-
-        public JsonPost(string companyName, string taxNumber)
-        {
-            CompanyName = companyName;
-            TaxNumber = taxNumber;
         }
 
         public override bool Validate()

@@ -1,56 +1,57 @@
 using FluentValidation;
 using Presentation.Utils.Messages;
 using Presentation.Utils.JsonModels.Models.ClinicalUnitController;
-using System.Collections.Generic;
 
 namespace Presentation.Utils.JsonModels.Validators
 {
     public class JsonPostValidator : AbstractValidator<JsonPost>
     {
-        List<string> Errors = new List<string>();
-
         public JsonPostValidator()
         {
-            Errors[0] = ExceptionMessages.EXC011();
-            Errors[1] = ExceptionMessages.EXC012();
-            Errors[2] = ExceptionMessages.EXC003(nameof(JsonPost.CompanyName));
-            Errors[3] = ExceptionMessages.EXC004(nameof(JsonPost.CompanyName));
-            Errors[4] = ExceptionMessages.EXC003(nameof(JsonPost.TaxNumber));
-            Errors[5] = ExceptionMessages.EXC004(nameof(JsonPost.TaxNumber));
-            Errors[6] = ExceptionMessages.EXC013(nameof(JsonPost.TaxNumber),11));
-            Errors[7] = ExceptionMessages.EXC007(nameof(JsonPost.TaxNumber));
-
             RuleFor(x => x)
                 .NotEmpty()
-                .WithMessage(Errors[0])
+                .WithMessage(ExceptionMessages.EXC011())
 
                 .NotNull()
-                .WithMessage(Errors[1]);
+                .WithMessage(ExceptionMessages.EXC012());
 
             RuleFor(x => x.CompanyName)
                 .NotEmpty()
-                .WithMessage(Errors[2])
+                .WithMessage(string.Format(ExceptionMessages.EXC003(),nameof(JsonPost.CompanyName)))
 
                 .NotNull()
-                .WithMessage(Errors[3]);
+                .WithMessage(string.Format(ExceptionMessages.EXC004(),nameof(JsonPost.CompanyName)))
+
+                .MinimumLength(3)
+                .WithMessage(string.Format(ExceptionMessages.EXC005(),nameof(JsonPost.CompanyName),3))
+
+                .MaximumLength(180)
+                .WithMessage(string.Format(ExceptionMessages.EXC006(),nameof(JsonPost.CompanyName),180));
 
             RuleFor(x => x.TaxNumber)
                 .NotEmpty()
-                .WithMessage(Errors[4])
+                .WithMessage(string.Format(ExceptionMessages.EXC003(),nameof(JsonPost.TaxNumber)))
 
                 .NotNull()
-                .WithMessage(Errors[5])
+                .WithMessage(string.Format(ExceptionMessages.EXC004(),nameof(JsonPost.TaxNumber)));
 
-                .Length(11)
-                .WithMessage(Errors[6])
+            When(x => x.TaxNumber != null && x.TaxNumber.Length != 11 && x.TaxNumber.Length != 14, () => {
+                RuleFor(x => x.TaxNumber)
+                    .Empty()
+                    .WithMessage(string.Format(ExceptionMessages.EXC015(),nameof(JsonPost.TaxNumber)));
+            });
 
-                .When(x => x.TaxNumber.Length == 11)
-                .Must(x => UsefulFunctions.IsValidCPF(x))
-                .WithMessage(Errors[7])
+            When(x => x.TaxNumber != null && x.TaxNumber.Length == 11, () => {
+                RuleFor(x => x.TaxNumber)
+                    .Must(x => UsefulFunctions.IsValidCPF(x))
+                    .WithMessage(string.Format(ExceptionMessages.EXC007(),nameof(JsonPost.TaxNumber)));
+            });
 
-                .When(x => x.TaxNumber.Length == 14)
-                .Must(x => UsefulFunctions.IsValidCNPJ(x))
-                .WithMessage(Errors[7]);
+            /* When(x => x.TaxNumber != null && x.TaxNumber.Length == 14, () => {
+                RuleFor(x => x.TaxNumber)
+                    .Must()
+                    .WithMessage(string.Format(ExceptionMessages.EXC007(),nameof(JsonPost.TaxNumber)));
+            }); */
         }
     }
 }

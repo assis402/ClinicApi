@@ -11,34 +11,34 @@ namespace Domain.Validators
         {
             RuleFor(x => x.Id)
                 .NotEmpty()
-                .WithMessage(ExceptionMessages.EXC003(nameof(Base.Id)))
+                .WithMessage(string.Format(ExceptionMessages.EXC003(),nameof(Base.Id)))
 
                 .NotNull()
-                .WithMessage(ExceptionMessages.EXC004(nameof(Base.Id)))
+                .WithMessage(string.Format(ExceptionMessages.EXC004(),nameof(Base.Id)))
                 
                 .LessThan(100001)
-                .WithMessage(ExceptionMessages.EXC013(nameof(Base.Id),6));
+                .WithMessage(string.Format(ExceptionMessages.EXC013(),nameof(Base.Id),6));
 
             RuleFor(x => x.CreationDate)
                 .NotEmpty()
-                .WithMessage(ExceptionMessages.EXC003(nameof(Base.CreationDate)))
+                .WithMessage(string.Format(ExceptionMessages.EXC003(),nameof(Base.CreationDate)))
 
                 .NotNull()
-                .WithMessage(ExceptionMessages.EXC004(nameof(Base.CreationDate)));
+                .WithMessage(string.Format(ExceptionMessages.EXC004(),nameof(Base.CreationDate)));
             
             RuleFor(x => x.UpdateDate)
                 .NotEmpty()
-                .WithMessage(ExceptionMessages.EXC003(nameof(Base.CreationDate)))
+                .WithMessage(string.Format(ExceptionMessages.EXC003(),nameof(Base.CreationDate)))
 
                 .NotNull()
-                .WithMessage(ExceptionMessages.EXC004(nameof(Base.CreationDate)));
+                .WithMessage(string.Format(ExceptionMessages.EXC004(),nameof(Base.CreationDate)));
 
             RuleFor(x => x.DeletionDate)
                 .NotEmpty()
-                .WithMessage(ExceptionMessages.EXC003(nameof(Base.CreationDate)))
+                .WithMessage(string.Format(ExceptionMessages.EXC003(),nameof(Base.CreationDate)))
 
                 .NotNull()
-                .WithMessage(ExceptionMessages.EXC004(nameof(Base.CreationDate)));
+                .WithMessage(string.Format(ExceptionMessages.EXC004(),nameof(Base.CreationDate)));
         }
     }
 }

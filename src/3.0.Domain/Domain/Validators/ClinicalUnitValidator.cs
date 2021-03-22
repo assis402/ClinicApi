@@ -11,41 +11,41 @@ namespace Domain.Validators
         {
             RuleFor(x => x)
                 .NotEmpty()
-                .WithMessage(ExceptionMessages.EXC001(nameof(ClinicalUnit)))
+                .WithMessage(ExceptionMessages.EXC011())
 
                 .NotNull()
-                .WithMessage(ExceptionMessages.EXC002(nameof(ClinicalUnit)));
+                .WithMessage(ExceptionMessages.EXC012());
 
             RuleFor(x => x.CompanyName)
                 .NotEmpty()
-                .WithMessage(ExceptionMessages.EXC003(nameof(ClinicalUnit.CompanyName)))
+                .WithMessage(string.Format(ExceptionMessages.EXC003(),nameof(ClinicalUnit.CompanyName)))
 
                 .NotNull()
-                .WithMessage(ExceptionMessages.EXC004(nameof(ClinicalUnit.CompanyName)))
+                .WithMessage(string.Format(ExceptionMessages.EXC004(),nameof(ClinicalUnit.CompanyName)))
 
                 .MinimumLength(3)
-                .WithMessage(ExceptionMessages.EXC005(nameof(ClinicalUnit.CompanyName),3))
+                .WithMessage(string.Format(ExceptionMessages.EXC005(),nameof(ClinicalUnit.CompanyName),3))
 
                 .MaximumLength(180)
-                .WithMessage(ExceptionMessages.EXC006(nameof(ClinicalUnit.CompanyName),180));
+                .WithMessage(string.Format(ExceptionMessages.EXC006(),nameof(ClinicalUnit.CompanyName),180));
 
             RuleFor(x => x.TaxNumber)
                 .NotEmpty()
-                .WithMessage(ExceptionMessages.EXC003(nameof(User.TaxNumber)))
+                .WithMessage(string.Format(ExceptionMessages.EXC003(),nameof(ClinicalUnit.TaxNumber)))
 
                 .NotNull()
-                .WithMessage(ExceptionMessages.EXC004(nameof(User.TaxNumber)))
+                .WithMessage(string.Format(ExceptionMessages.EXC004(),nameof(ClinicalUnit.TaxNumber)))
 
-                .Length(11)
-                .WithMessage(ExceptionMessages.EXC013(nameof(User.TaxNumber),11))
+                .When(x => x.TaxNumber.Length != 11 && x.TaxNumber.Length != 14)
+                .WithMessage(string.Format(ExceptionMessages.EXC015(),nameof(ClinicalUnit.TaxNumber)))
 
                 .When(x => x.TaxNumber.Length == 11)
-                .Must(x => UsefulFunctions.IsValidCPF(x))
-                .WithMessage(ExceptionMessages.EXC007(nameof(User.TaxNumber)))
+                //.Must(x => UsefulFunctions.IsValidCPF(x))
+                .WithMessage(string.Format(ExceptionMessages.EXC007(),nameof(ClinicalUnit.TaxNumber)))
 
                 .When(x => x.TaxNumber.Length == 14)
                 .Must(x => UsefulFunctions.IsValidCNPJ(x))
-                .WithMessage(ExceptionMessages.EXC007(nameof(User.TaxNumber)));
+                .WithMessage(string.Format(ExceptionMessages.EXC007(),nameof(ClinicalUnit.TaxNumber)));
         }
     }
 }

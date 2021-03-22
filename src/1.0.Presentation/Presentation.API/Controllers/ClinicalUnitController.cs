@@ -4,6 +4,7 @@ using Application.Interfaces;
 using Presentation.Utils.JsonModels.Models;
 using Presentation.Utils.JsonModels.Models.ClinicalUnitController;
 using Presentation.Utils.JsonModels.Exceptions;
+using Presentation.Utils;
 using Domain.Exceptions;
 using System;
 

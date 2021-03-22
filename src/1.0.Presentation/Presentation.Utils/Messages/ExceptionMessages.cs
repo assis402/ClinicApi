@@ -4,74 +4,80 @@ namespace Presentation.Utils.Messages
 {
     public static class ExceptionMessages
     {
-        public static string EXC001(string entityName)
+        public static string EXC001()
         {
-            return String.Format("The {0} entity cannot be empty.", entityName);
+            return "The {0} entity cannot be empty.";
         }
 
-        public static string EXC002(string entityName)
+        public static string EXC002()
         {
-            return String.Format("The {0} entity cannot be null.", entityName);
+            return "The {0} entity cannot be null.";
         }
 
-        public static string EXC003(string parameterName)
+        public static string EXC003()
         {
-            return String.Format("The {0} parameter cannot be empty.", parameterName);
+            return "The {0} parameter cannot be empty.";
         }
 
-        public static string EXC004(string parameterName)
+        public static string EXC004()
         {
-            return String.Format("The {0} parameter cannot be null.", parameterName);
+            return "The {0} parameter cannot be null.";
         }
 
-        public static string EXC005(string parameterName, int min)
+        public static string EXC005()
         {
-            return String.Format("The {0} parameter must be at least {1} characters long.", parameterName, min);
+            return "The {0} parameter must be at least {1} characters long.";
         }
 
-        public static string EXC006(string parameterName, int max)
+        public static string EXC006()
         {
-            return String.Format("The {0} parameter must have a maximum of {1} characters.", parameterName, max);
+            return "The {0} parameter must have a maximum of {1} characters.";
         }
 
-        public static string EXC007(string parameterName)
+        public static string EXC007()
         {
-            return String.Format("The {0} parameter entered is not valid.", parameterName);
+            return "The {0} parameter entered is not valid.";
         }
 
-        public static string EXC008(string parameterName)
+        public static string EXC008()
         {
-            return String.Format("The {0} parameter entered is not valid.", parameterName);
+            return "The {0} parameter entered is not valid.";
         }
 
         public static string EXC009()
         {
-            return String.Format("The Post request cannot be empty");
+            return "The Post request cannot be empty";
         }
 
         public static string EXC010()
         {
-            return String.Format("The Post request cannot be null");
+            return "The Post request cannot be null";
         }
 
         public static string EXC011()
         {
-            return String.Format("The Get request cannot be empty");
+            return "The Get request cannot be empty";
         }
 
         public static string EXC012()
         {
-            return String.Format("The Get request cannot be Null");
+            return "The Get request cannot be Null";
         }
 
-        public static string EXC013(string parameterName, int length)
+        public static string EXC013()
         {
-            return String.Format("The {0} parameter must be {1} characters.", parameterName, length);
+            return "The {0} parameter must be {1} characters.";
         }
 
         public static string EXC014()
         {
-            return String.Format("The following parameters are invalid:");
+            return "The following parameters are invalid:";
         }
+
+        public static string EXC015()
+        {
+            return "The TaxNumber parameter must have 11 (CPF) or 14 (CNPJ) characters";
+        }
+
     }
 }

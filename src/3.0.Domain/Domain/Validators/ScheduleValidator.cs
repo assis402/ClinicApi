@@ -10,10 +10,10 @@ namespace Domain.Validators
         {
             RuleFor(x => x)
                 .NotEmpty()
-                .WithMessage(ExceptionMessages.EXC001(nameof(Schedule)))
+                .WithMessage(string.Format(ExceptionMessages.EXC001(),nameof(Schedule)))
 
                 .NotNull()
-                .WithMessage(ExceptionMessages.EXC002(nameof(Schedule)));
+                .WithMessage(string.Format(ExceptionMessages.EXC002(),nameof(Schedule)));
         }
     }
 }

@@ -17,13 +17,13 @@ namespace Presentation.Utils.JsonModels.Validators
 
             RuleFor(x => x.Id)
                 .NotEmpty()
-                .WithMessage(ExceptionMessages.EXC003(nameof(JsonGet.Id)))
+                .WithMessage(string.Format(ExceptionMessages.EXC003(),nameof(JsonGet.Id)))
 
                 .NotNull()
-                .WithMessage(ExceptionMessages.EXC004(nameof(JsonGet.Id)))
+                .WithMessage(string.Format(ExceptionMessages.EXC004(),nameof(JsonGet.Id)))
                 
                 .LessThan(100001)
-                .WithMessage(ExceptionMessages.EXC013(nameof(JsonGet.Id),6));
+                .WithMessage(string.Format(ExceptionMessages.EXC013(),nameof(JsonGet.Id),6));
         }
     }
 }
