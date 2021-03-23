@@ -13,14 +13,11 @@ namespace Domain.Entities
 
         public DateTime? DeletionDate { get; private set; }
 
-        internal List<string> _errors;
-
-        public IReadOnlyCollection<string> Errors => _errors;
-
         public abstract bool Validate();
 
-        public Base(DateTime creationDate, DateTime updateDate, DateTime? deletionDate)
+        public Base(Enum status, DateTime creationDate, DateTime updateDate, DateTime? deletionDate)
         {
+            Status = status;
             CreationDate = creationDate;
             UpdateDate = updateDate;
             DeletionDate = deletionDate;

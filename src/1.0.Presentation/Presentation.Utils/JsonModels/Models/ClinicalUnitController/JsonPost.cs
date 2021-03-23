@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace Presentation.Utils.JsonModels.Models.ClinicalUnitController
 {
-    public class JsonPost : JsonBase
+    public class JsonPost
     {
         public string CompanyName { get; set; }
 
@@ -16,9 +16,10 @@ namespace Presentation.Utils.JsonModels.Models.ClinicalUnitController
         {
         }
 
-        public override bool Validate()
+        public bool Validate()
         {
-            List<string> errors = new List<string>();
+            List<string> Errors = new List<string>();
+            
             var validator = new JsonPostValidator();
             var validation = validator.Validate(this);
 
@@ -26,10 +27,10 @@ namespace Presentation.Utils.JsonModels.Models.ClinicalUnitController
             {
                 foreach(var error in validation.Errors)
                 {
-                    errors.Add(error.ErrorMessage);
+                    Errors.Add(error.ErrorMessage);
                 }
 
-                throw new InputJsonException(ExceptionMessages.EXC014(), errors);
+                throw new InputJsonException(ExceptionMessages.EXC014(), Errors);
             }
 
             return true;

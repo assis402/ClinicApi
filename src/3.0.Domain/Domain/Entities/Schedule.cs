@@ -24,11 +24,12 @@ namespace Domain.Entities
             ScheduleDate = scheduleDate;
             UserId = userId;
             ClinicalUnitId = clinicalUnitId;
-            _errors = new List<string>();
         }  
 
         public override bool Validate()
         {
+            List<string> Errors = new List<string>();
+
             var baseValidator = new BaseValidator();
             var baseValidation = baseValidator.Validate(this);
             var entityValidator = new ScheduleValidator();
@@ -37,12 +38,12 @@ namespace Domain.Entities
             if(!baseValidation.IsValid || !entityValidation.IsValid)
             {
                 foreach(var error in baseValidation.Errors)
-                    _errors.Add(error.ErrorMessage);
+                    Errors.Add(error.ErrorMessage);
 
                 foreach(var error in entityValidation.Errors)
-                    _errors.Add(error.ErrorMessage);
+                    Errors.Add(error.ErrorMessage);
 
-                throw new DomainException(ExceptionMessages.EXC014(), _errors);
+                throw new DomainException(ExceptionMessages.EXC014(), Errors);
             }
 
             return true;

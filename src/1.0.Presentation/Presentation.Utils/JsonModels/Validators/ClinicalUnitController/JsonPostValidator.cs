@@ -47,11 +47,11 @@ namespace Presentation.Utils.JsonModels.Validators
                     .WithMessage(string.Format(ExceptionMessages.EXC007(),nameof(JsonPost.TaxNumber)));
             });
 
-            /* When(x => x.TaxNumber != null && x.TaxNumber.Length == 14, () => {
+            When(x => x.TaxNumber != null && x.TaxNumber.Length == 14, () => {
                 RuleFor(x => x.TaxNumber)
-                    .Must()
+                    .Must(x => UsefulFunctions.IsValidCNPJ(x))
                     .WithMessage(string.Format(ExceptionMessages.EXC007(),nameof(JsonPost.TaxNumber)));
-            }); */
+            });
         }
     }
 }

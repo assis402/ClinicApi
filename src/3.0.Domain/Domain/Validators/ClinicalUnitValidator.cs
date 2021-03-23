@@ -34,18 +34,25 @@ namespace Domain.Validators
                 .WithMessage(string.Format(ExceptionMessages.EXC003(),nameof(ClinicalUnit.TaxNumber)))
 
                 .NotNull()
-                .WithMessage(string.Format(ExceptionMessages.EXC004(),nameof(ClinicalUnit.TaxNumber)))
+                .WithMessage(string.Format(ExceptionMessages.EXC004(),nameof(ClinicalUnit.TaxNumber)));
 
-                .When(x => x.TaxNumber.Length != 11 && x.TaxNumber.Length != 14)
-                .WithMessage(string.Format(ExceptionMessages.EXC015(),nameof(ClinicalUnit.TaxNumber)))
+            When(x => x.TaxNumber != null && x.TaxNumber.Length != 11 && x.TaxNumber.Length != 14, () => {
+                RuleFor(x => x.TaxNumber)
+                    .Empty()
+                    .WithMessage(string.Format(ExceptionMessages.EXC015(),nameof(ClinicalUnit.TaxNumber)));
+            });
 
-                .When(x => x.TaxNumber.Length == 11)
-                //.Must(x => UsefulFunctions.IsValidCPF(x))
-                .WithMessage(string.Format(ExceptionMessages.EXC007(),nameof(ClinicalUnit.TaxNumber)))
+            When(x => x.TaxNumber != null && x.TaxNumber.Length == 11, () => {
+                RuleFor(x => x.TaxNumber)
+                    .Must(x => UsefulFunctions.IsValidCPF(x))
+                    .WithMessage(string.Format(ExceptionMessages.EXC007(),nameof(ClinicalUnit.TaxNumber)));
+            });
 
-                .When(x => x.TaxNumber.Length == 14)
-                .Must(x => UsefulFunctions.IsValidCNPJ(x))
-                .WithMessage(string.Format(ExceptionMessages.EXC007(),nameof(ClinicalUnit.TaxNumber)));
+            When(x => x.TaxNumber != null && x.TaxNumber.Length == 14, () => {
+                RuleFor(x => x.TaxNumber)
+                    .Must(x => UsefulFunctions.IsValidCNPJ(x))
+                    .WithMessage(string.Format(ExceptionMessages.EXC007(),nameof(ClinicalUnit.TaxNumber)));
+            });
         }
     }
 }
