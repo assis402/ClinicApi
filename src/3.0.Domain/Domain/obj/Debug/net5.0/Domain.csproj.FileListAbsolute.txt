@@ -1,17 +1,5 @@
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/bin/Debug/net5.0/Domain.deps.json
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/bin/Debug/net5.0/Domain.dll
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/bin/Debug/net5.0/ref/Domain.dll
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/bin/Debug/net5.0/Domain.pdb
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/bin/Debug/net5.0/Application.DTO.dll
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/bin/Debug/net5.0/Presentation.Utils.dll
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/bin/Debug/net5.0/Presentation.Utils.pdb
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/bin/Debug/net5.0/Application.DTO.pdb
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/obj/Debug/net5.0/Domain.csprojAssemblyReference.cache
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/obj/Debug/net5.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/obj/Debug/net5.0/Domain.AssemblyInfoInputs.cache
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/obj/Debug/net5.0/Domain.AssemblyInfo.cs
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/obj/Debug/net5.0/Domain.csproj.CopyComplete
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/obj/Debug/net5.0/Domain.dll
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/obj/Debug/net5.0/ref/Domain.dll
-/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/obj/Debug/net5.0/Domain.pdb
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\3.0.Domain\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\3.0.Domain\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\3.0.Domain\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\3.0.Domain\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\3.0.Domain\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache

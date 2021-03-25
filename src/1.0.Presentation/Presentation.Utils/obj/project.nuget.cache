@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/+JactiuENJ1TgryDE9nC0FUiB7VwX0sSivdo7Xv26yCF9bPZ3ez6x4BeP0n5lqKyxYqpl72WECjVZj7u3BFEA==",
+  "dgSpecHash": "XQ/4LW5I5yNBmFOE/L6mwWDP0ZbWBDSWet1BgLhbJSCnUpWv4OLgcF6uNPRunpnwBFfM8tba5x7hJ1v9qz3m7Q==",
   "success": true,
-  "projectFilePath": "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj",
+  "projectFilePath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj",
   "expectedPackageFiles": [
-    "/home/matheus/.nuget/packages/fluentvalidation/9.5.3/fluentvalidation.9.5.3.nupkg.sha512",
-    "/home/matheus/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\matheus.alcantara\\.nuget\\packages\\fluentvalidation\\9.5.3\\fluentvalidation.9.5.3.nupkg.sha512"
   ],
   "logs": []
 }

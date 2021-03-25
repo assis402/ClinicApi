@@ -1,12 +1,12 @@
-/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/bin/Debug/net5.0/Application.DTO.deps.json
-/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/bin/Debug/net5.0/Application.DTO.dll
-/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/bin/Debug/net5.0/ref/Application.DTO.dll
-/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/bin/Debug/net5.0/Application.DTO.pdb
-/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/obj/Debug/net5.0/Application.DTO.csprojAssemblyReference.cache
-/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/obj/Debug/net5.0/Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
-/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/obj/Debug/net5.0/Application.DTO.AssemblyInfoInputs.cache
-/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/obj/Debug/net5.0/Application.DTO.AssemblyInfo.cs
-/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/obj/Debug/net5.0/Application.DTO.csproj.CoreCompileInputs.cache
-/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/obj/Debug/net5.0/Application.DTO.dll
-/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/obj/Debug/net5.0/ref/Application.DTO.dll
-/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/obj/Debug/net5.0/Application.DTO.pdb
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\bin\Debug\net5.0\Application.DTO.deps.json
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\bin\Debug\net5.0\Application.DTO.dll
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\bin\Debug\net5.0\ref\Application.DTO.dll
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\bin\Debug\net5.0\Application.DTO.pdb
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.csprojAssemblyReference.cache
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.AssemblyInfoInputs.cache
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.AssemblyInfo.cs
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.csproj.CoreCompileInputs.cache
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.dll
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\ref\Application.DTO.dll
+C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.pdb

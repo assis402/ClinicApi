@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/home/matheus/Desktop/ClinicApi/src/4.0.Infrastructure/Infrastructure.Repository/Infrastructure.Repository.csproj": {}
+    "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Repository\\Infrastructure.Repository.csproj": {}
   },
   "projects": {
-    "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj": {
+    "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj",
         "projectName": "Presentation.Utils",
-        "projectPath": "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.Utils/obj/",
+        "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj",
+        "packagesPath": "C:\\Users\\matheus.alcantara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\matheus.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/Application.DTO.csproj": {
-                "projectPath": "/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/Application.DTO.csproj"
+              "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj"
               }
             }
           }
@@ -57,37 +63,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/Application.DTO.csproj": {
+    "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/Application.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj",
         "projectName": "Application.DTO",
-        "projectPath": "/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/Application.DTO.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/Desktop/ClinicApi/src/2.0.Application/Application.DTO/obj/",
+        "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj",
+        "packagesPath": "C:\\Users\\matheus.alcantara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\matheus.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -115,45 +121,45 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain.Core/Domain.Core.csproj": {
+    "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain.Core\\Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain.Core/Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain.Core\\Domain.Core.csproj",
         "projectName": "Domain.Core",
-        "projectPath": "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain.Core/Domain.Core.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain.Core/obj/",
+        "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain.Core\\Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\matheus.alcantara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\matheus.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/Domain.csproj": {
-                "projectPath": "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/Domain.csproj"
+              "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj"
               }
             }
           }
@@ -177,45 +183,45 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/Domain.csproj": {
+    "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/Domain.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/obj/",
+        "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\matheus.alcantara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\matheus.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj": {
-                "projectPath": "/home/matheus/Desktop/ClinicApi/src/1.0.Presentation/Presentation.Utils/Presentation.Utils.csproj"
+              "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj": {
+                "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj"
               }
             }
           }
@@ -249,45 +255,45 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/matheus/Desktop/ClinicApi/src/4.0.Infrastructure/Infrastructure.Data/Infrastructure.Data.csproj": {
+    "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Data\\Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/Desktop/ClinicApi/src/4.0.Infrastructure/Infrastructure.Data/Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Data\\Infrastructure.Data.csproj",
         "projectName": "Infrastructure.Data",
-        "projectPath": "/home/matheus/Desktop/ClinicApi/src/4.0.Infrastructure/Infrastructure.Data/Infrastructure.Data.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/Desktop/ClinicApi/src/4.0.Infrastructure/Infrastructure.Data/obj/",
+        "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Data\\Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\matheus.alcantara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\matheus.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/Domain.csproj": {
-                "projectPath": "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/Domain.csproj"
+              "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj"
               }
             }
           }
@@ -337,51 +343,51 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/matheus/Desktop/ClinicApi/src/4.0.Infrastructure/Infrastructure.Repository/Infrastructure.Repository.csproj": {
+    "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Repository\\Infrastructure.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/Desktop/ClinicApi/src/4.0.Infrastructure/Infrastructure.Repository/Infrastructure.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Repository\\Infrastructure.Repository.csproj",
         "projectName": "Infrastructure.Repository",
-        "projectPath": "/home/matheus/Desktop/ClinicApi/src/4.0.Infrastructure/Infrastructure.Repository/Infrastructure.Repository.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/Desktop/ClinicApi/src/4.0.Infrastructure/Infrastructure.Repository/obj/",
+        "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Repository\\Infrastructure.Repository.csproj",
+        "packagesPath": "C:\\Users\\matheus.alcantara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\matheus.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain.Core/Domain.Core.csproj": {
-                "projectPath": "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain.Core/Domain.Core.csproj"
+              "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain.Core\\Domain.Core.csproj"
               },
-              "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/Domain.csproj": {
-                "projectPath": "/home/matheus/Desktop/ClinicApi/src/3.0.Domain/Domain/Domain.csproj"
+              "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj"
               },
-              "/home/matheus/Desktop/ClinicApi/src/4.0.Infrastructure/Infrastructure.Data/Infrastructure.Data.csproj": {
-                "projectPath": "/home/matheus/Desktop/ClinicApi/src/4.0.Infrastructure/Infrastructure.Data/Infrastructure.Data.csproj"
+              "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Data\\Infrastructure.Data.csproj"
               }
             }
           }
@@ -415,18 +421,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

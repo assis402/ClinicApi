@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UZnXKXguVbt0SjQwadGgi8NgeTlLLKQZdSPN43cZVj7eep12AhyfOL2rzXujzftMdvuvjN5PIsMbU4w5To7fRA==",
+  "dgSpecHash": "5gSI0TwXah10ogeOTuq/kPrPbEwaiaKMisPlq7F0IoDo5VlS+bWXs6eHcyW2XUnXrQpigm6sAsUk4VhbcRGboQ==",
   "success": true,
-  "projectFilePath": "/home/matheus/Desktop/ClinicApi/src/4.0.Infrastructure/Infrastructure.Adapter/Infrastructure.Adapter.csproj",
+  "projectFilePath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Adapter\\Infrastructure.Adapter.csproj",
   "expectedPackageFiles": [
-    "/home/matheus/.nuget/packages/extensions.fluentvalidation.br/1.0.1/extensions.fluentvalidation.br.1.0.1.nupkg.sha512",
-    "/home/matheus/.nuget/packages/fluentvalidation/9.5.3/fluentvalidation.9.5.3.nupkg.sha512",
-    "/home/matheus/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\matheus.alcantara\\.nuget\\packages\\extensions.fluentvalidation.br\\1.0.1\\extensions.fluentvalidation.br.1.0.1.nupkg.sha512",
+    "C:\\Users\\matheus.alcantara\\.nuget\\packages\\fluentvalidation\\9.5.3\\fluentvalidation.9.5.3.nupkg.sha512"
   ],
   "logs": []
 }
