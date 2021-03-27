@@ -15,9 +15,8 @@ namespace Domain.Entities
 
         public abstract bool Validate();
 
-        public Base(Enum status, DateTime creationDate, DateTime updateDate, DateTime? deletionDate)
+        public Base(DateTime creationDate, DateTime updateDate, DateTime? deletionDate)
         {
-            Status = status;
             CreationDate = creationDate;
             UpdateDate = updateDate;
             DeletionDate = deletionDate;

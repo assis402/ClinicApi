@@ -3,22 +3,21 @@ using System.Collections.Generic;
 using Domain.Validators;
 using Domain.Exceptions;
 using Presentation.Utils.Messages;
+using Domain.Enums;
 
 
 namespace Domain.Entities
 {
     public class ClinicalUnit : Base
     {
+        public ClinicalUnitStatus Status { get; set; }
+        
         public string CompanyName { get; private set; }
 
         public string TaxNumber { get; private set; }
 
-        public ICollection<User> Users { get; private set; }
-
-        public ICollection<Schedule> Schedules { get; private set; }
-
-        public ClinicalUnit(string companyName, string taxNumber, Enum status,DateTime creationDate, DateTime updateDate, DateTime? deletionDate) 
-        : base(status, creationDate, updateDate, deletionDate)
+        public ClinicalUnit(string companyName, string taxNumber, Enum status, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) 
+        : base(creationDate, updateDate, deletionDate)
         {
             CompanyName = companyName;
             TaxNumber = taxNumber;

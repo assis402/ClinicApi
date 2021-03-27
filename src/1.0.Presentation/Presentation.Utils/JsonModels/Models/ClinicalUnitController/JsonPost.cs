@@ -1,8 +1,8 @@
 using Application.DTO;
-using Presentation.Utils.JsonModels.Validators;
-using Presentation.Utils.Messages;
-using Presentation.Utils.JsonModels.Exceptions;
 using System.Collections.Generic;
+using Presentation.Utils.JsonModels.Exceptions;
+using Presentation.Utils.Messages;
+using Presentation.Utils.JsonModels.Validators.ClinicalUnitController;
 
 namespace Presentation.Utils.JsonModels.Models.ClinicalUnitController
 {

@@ -18,20 +18,13 @@ namespace Domain.Entities
 
         public string PhoneNumber { get; set; }
 
-        public ICollection<Schedule> Schedules { get; set; }
-
         public ClinicalUnit ClinicalUnit { get; set; }
 
         public int ClinicalUnitId { get; set; }
 
-        public void ChangeName(string name)
-        {
-            Name = name;
-            Validate();
-        }
+        public ICollection<Protocol> Protocols { get; set; }
 
-        public User(string taxNumber, string password, string name, string email, string phoneNumber, int clinicalUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) 
-        : base(creationDate, updateDate, deletionDate)
+        public User(string taxNumber, string password, string name, string email, string phoneNumber, int clinicalUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) : base(creationDate, updateDate, deletionDate)
         {
             TaxNumber = taxNumber;
             Password = password;

@@ -10,19 +10,19 @@ namespace Domain.Entities
     {
         public DateTime ScheduleDate { get; private set; }
 
-        public User User { get; private set; }
+        public Patient Patient { get; private set; }
 
-        public int UserId { get; private set; }
+        public int PatientId { get; private set; }
 
         public ClinicalUnit ClinicalUnit { get; set; }
 
         public int ClinicalUnitId { get; private set; }
 
-        public Schedule(DateTime scheduleDate, int userId, int clinicalUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) 
+        public Schedule(DateTime scheduleDate, int patientId, int clinicalUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) 
         : base(creationDate, updateDate, deletionDate)
         {
             ScheduleDate = scheduleDate;
-            UserId = userId;
+            PatientId = patientId;
             ClinicalUnitId = clinicalUnitId;
         }  
 

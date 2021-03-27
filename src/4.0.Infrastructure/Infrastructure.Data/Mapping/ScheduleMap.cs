@@ -11,17 +11,18 @@ namespace Infrastructure.Data.Mapping
     {
         public void Configure(EntityTypeBuilder<Schedule> builder)
         {
-            builder.HasKey(s => s.Id);
-            builder.Property(u => u.Id).UseIdentityColumn(1001,1);
+            builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).UseIdentityColumn(100001,1);
 
-            builder.Property(s => s.ScheduleDate).IsRequired();
-            builder.Property(s => s.UserId).IsRequired();
-            builder.Property(s => s.CreationDate).IsRequired();
-            builder.Property(s => s.UpdateDate).IsRequired();
-            builder.Property(s => s.DeletionDate).IsRequired();
+            builder.Property(x => x.ScheduleDate).IsRequired();
+            builder.Property(x => x.PatientId).IsRequired().HasMaxLength(6);
+            builder.Property(x => x.ClinicalUnitId).IsRequired().HasMaxLength(6);
+            builder.Property(x => x.CreationDate).IsRequired();
+            builder.Property(x => x.UpdateDate).IsRequired();
+            builder.Property(x => x.DeletionDate).IsRequired();
 
-            builder.HasOne(s => s.User).WithMany(c => c.Schedules).HasForeignKey(u => u.UserId);
-            builder.HasOne(s => s.ClinicalUnit).WithMany(c => c.Schedules).HasForeignKey(u => u.ClinicalUnitId);
+            builder.HasOne(x => x.Patient).WithMany(x => x.Schedules).HasForeignKey(x => x.PatientId);
+            //builder.HasOne(x => x.ClinicalUnit).WithMany(x => x.Schedules).HasForeignKey(x => x.ClinicalUnitId);
 
             builder.ToTable("Schedule");
         }

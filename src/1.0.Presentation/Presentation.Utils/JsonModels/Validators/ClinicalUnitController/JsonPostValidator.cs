@@ -2,7 +2,7 @@ using FluentValidation;
 using Presentation.Utils.Messages;
 using Presentation.Utils.JsonModels.Models.ClinicalUnitController;
 
-namespace Presentation.Utils.JsonModels.Validators
+namespace Presentation.Utils.JsonModels.Validators.ClinicalUnitController
 {
     public class JsonPostValidator : AbstractValidator<JsonPost>
     {

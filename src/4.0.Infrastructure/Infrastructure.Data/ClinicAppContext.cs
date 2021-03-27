@@ -39,8 +39,11 @@ namespace Infrastructure.Data
             base.OnModelCreating(builder);
 
             builder.ApplyConfiguration(new ClinicalUnitMap());
-            builder.ApplyConfiguration(new UserMap());
+            builder.ApplyConfiguration(new PatientMap());
+            builder.ApplyConfiguration(new EmployerMap());
+            builder.ApplyConfiguration(new SpecialistMap());
             builder.ApplyConfiguration(new ScheduleMap());
+            builder.ApplyConfiguration(new ProtocolMap());
         }
 
         

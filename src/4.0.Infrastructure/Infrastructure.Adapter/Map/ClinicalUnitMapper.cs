@@ -1,5 +1,6 @@
 using System;
 using Domain.Entities;
+using Domain.Enums;
 using Infrastructure.Adapter.Interfaces;
 using System.Collections.Generic;
 using Application.DTO;
@@ -16,6 +17,7 @@ namespace Infrastructure.Adapter.Map
             (
                 ClinicalUnitDTO.CompanyName,
                 ClinicalUnitDTO.TaxNumber,
+                ClinicalUnitStatus.Registering,
                 DateTime.Now,
                 DateTime.Now,
                 null

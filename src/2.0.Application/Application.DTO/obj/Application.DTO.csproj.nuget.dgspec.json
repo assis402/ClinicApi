@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj": {}
+    "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj": {
+    "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj",
+        "projectUniqueName": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj",
         "projectName": "Application.DTO",
-        "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj",
+        "projectPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj",
         "packagesPath": "C:\\Users\\matheus.alcantara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\obj\\",
+        "outputPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
