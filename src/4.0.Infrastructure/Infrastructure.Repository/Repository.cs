@@ -41,9 +41,10 @@ namespace Infrastructure.Repository
                               .SingleOrDefaultAsync();
         }
 
-        public async Task AddAsync(TEntity entity)
+        public async Task<TEntity> AddAsync(TEntity entity)
         {
             await dbSet.AddAsync(entity);
+            return entity;
         }
 
         public async Task<TEntity> FindByExpressionAsync(Expression<Func<TEntity, bool>> match)

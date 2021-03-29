@@ -13,11 +13,11 @@ namespace Domain.Entities
 
         public ActionType ActionType { get; private set; }
 
-        public ClinicalUnit ClinicalUnit { get; set; }
+        public ClinicalUnit ClinicalUnit { get; private set; }
 
         public int ClinicalUnitId { get; private set; }
 
-        public User User { get; set; }
+        public User User { get; private set; }
 
         public int UserId { get; set; }
 

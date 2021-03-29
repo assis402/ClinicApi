@@ -2,35 +2,39 @@ using System;
 using System.Collections.Generic;
 using Domain.Validators;
 using Domain.Exceptions;
+using Domain.Enums;
 using Presentation.Utils.Messages;
 
 namespace Domain.Entities
 {
     public class User : Base
     {
-        public string TaxNumber { get; set; }
+        public string TaxNumber { get; private set; }
 
-        public string Password { get; set; }
+        public string Password { get; private set; }
 
-        public string Name { get; set; }
+        public string Name { get; private set; }
 
-        public string Email { get; set; }
+        public string Email { get; private set; }
 
-        public string PhoneNumber { get; set; }
+        public string PhoneNumber { get; private set; }
 
-        public ClinicalUnit ClinicalUnit { get; set; }
+        public UserRole Role { get; private set; }
 
-        public int ClinicalUnitId { get; set; }
+        public ClinicalUnit ClinicalUnit { get; private set; }
 
-        public ICollection<Protocol> Protocols { get; set; }
+        public int ClinicalUnitId { get; private set; }
 
-        public User(string taxNumber, string password, string name, string email, string phoneNumber, int clinicalUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) : base(creationDate, updateDate, deletionDate)
+        public ICollection<Protocol> Protocols { get; private set; }
+
+        public User(string taxNumber, string password, string name, string email, string phoneNumber, UserRole role, int clinicalUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) : base(creationDate, updateDate, deletionDate)
         {
             TaxNumber = taxNumber;
             Password = password;
             Name = name;
             Email = email;
             PhoneNumber = phoneNumber;
+            Role = role;
             ClinicalUnitId = clinicalUnitId;
         }
 

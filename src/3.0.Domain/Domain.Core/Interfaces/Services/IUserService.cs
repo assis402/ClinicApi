@@ -6,16 +6,6 @@ namespace Domain.Core.Interfaces.Services
 {
     public interface IUserService
     {
-        Task<string> InsertUser(User user);
-
-        //Task<string> UpdateUser(User user);
-
-        //Task<string> DeleteUserByCPF(string cpf);
-
-        //Task<User> GetUserByCPF(string cpf);
-
-        //Task<ICollection<User>> GetAllUsersByClinicalUnitId(int ClinicalUnitId);
-
-        //Task<bool> CPFAlreadyUsed(string cpf);
+        Task<User> GetUserToLogin(int clinicalUnitId, string taxNumber, string password);
     }
 }

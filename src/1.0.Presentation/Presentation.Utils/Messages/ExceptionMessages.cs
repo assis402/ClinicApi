@@ -79,5 +79,11 @@ namespace Presentation.Utils.Messages
             return "The TaxNumber parameter must have 11 (CPF) or 14 (CNPJ) characters";
         }
 
+        public static string EXC016()
+        {
+            return "No {0} with this identifier was found";
+        }
+       
+
     }
 }

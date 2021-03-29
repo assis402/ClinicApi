@@ -5,14 +5,10 @@ namespace Domain.Core.Interfaces.Services
 {
     public interface IScheduleService
     {
-        Task<string> InsertSchedule(Schedule schedule);
+        Task<Schedule> InsertSchedule(Schedule schedule);
 
-        Task<ClinicalUnit> GetScheduleByUserId(int scheduleId);
+        Task<Schedule> GetScheduleById(int scheduleId);
 
-        Task<ClinicalUnit> GetAllSchedulesByClinicalUnitId(int ClinicalUnitId);
-
-        Task<string> Reschedule(Schedule schedule);
-
-        Task<string> UndoShedule(Schedule schedule);
+        //Task<ClinicalUnit> GetAllSchedulesByClinicalUnitId(int ClinicalUnitId);
     }
 }

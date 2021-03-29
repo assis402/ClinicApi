@@ -40,7 +40,7 @@ namespace Infrastructure.Data
 
             builder.ApplyConfiguration(new ClinicalUnitMap());
             builder.ApplyConfiguration(new PatientMap());
-            builder.ApplyConfiguration(new EmployerMap());
+            builder.ApplyConfiguration(new CompanyProfileMap());
             builder.ApplyConfiguration(new SpecialistMap());
             builder.ApplyConfiguration(new ScheduleMap());
             builder.ApplyConfiguration(new ProtocolMap());

@@ -18,10 +18,11 @@ namespace Application.Services
             this.ClinicalUnitService = ClinicalUnitService;    
         }
 
-        public async Task InsertClinicalUnit(ClinicalUnitDTO ClinicalUnitDTO)
+        public async Task<ClinicalUnitDTO> InsertClinicalUnit(ClinicalUnitDTO ClinicalUnitDTO)
         {
             ClinicalUnit ClinicalUnit = ClinicalUnitMapper.MapperToEntity(ClinicalUnitDTO);
-            await ClinicalUnitService.InsertClinicalUnit(ClinicalUnit);
+            ClinicalUnit = await ClinicalUnitService.InsertClinicalUnit(ClinicalUnit);
+            return ClinicalUnitMapper.MapperToDTO(ClinicalUnit);
         }
 
         public async Task<ClinicalUnitDTO> GetClinicalUnitById(int ClinicalUnitId)

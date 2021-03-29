@@ -5,7 +5,7 @@ namespace Domain.Core.Interfaces.Services
 {
     public interface IClinicalUnitService
     {
-        Task<string> InsertClinicalUnit(ClinicalUnit ClinicalUnit);
+        Task<ClinicalUnit> InsertClinicalUnit(ClinicalUnit ClinicalUnit);
 
         //Task<string> UpdateClinicalUnit(ClinicalUnit ClinicalUnit);
 

@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Infrastructure.Data.Mapping
 {
-    public class EmployerMap : IEntityTypeConfiguration<Employer>
+    public class CompanyProfileMap : IEntityTypeConfiguration<CompanyProfile>
     {
-        public void Configure(EntityTypeBuilder<Employer> builder)
+        public void Configure(EntityTypeBuilder<CompanyProfile> builder)
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn(100001,1);

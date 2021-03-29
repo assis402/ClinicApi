@@ -7,14 +7,14 @@ using Presentation.Utils.Messages;
 
 namespace Domain.Entities
 {
-    public class Specialist : User
+    public class Specialist : CompanyProfile
     {
-        
-        public Formation Formation { get; set; }
+        public Formation Formation { get; private set; }
 
-        public string Specialty { get; set; }
+        public string Specialty { get; private set; }
 
-        public Specialist(Formation formation, string specialty, string taxNumber, string password, string name, string email, string phoneNumber, int clinicalUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) : base(taxNumber, password, name, email, phoneNumber, clinicalUnitId, creationDate, updateDate, deletionDate)
+        public Specialist(Formation formation, string specialty, string taxNumber, string password, string name, string email, string phoneNumber, int clinicalUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) 
+        : base(taxNumber, password, name, email, phoneNumber, UserRole.Employee, clinicalUnitId, creationDate, updateDate, deletionDate)
         {
             Formation = formation;
             Specialty = specialty;

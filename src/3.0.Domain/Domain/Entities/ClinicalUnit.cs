@@ -10,7 +10,7 @@ namespace Domain.Entities
 {
     public class ClinicalUnit : Base
     {
-        public ClinicalUnitStatus Status { get; set; }
+        public ClinicalUnitStatus Status { get; private set; }
         
         public string CompanyName { get; private set; }
 

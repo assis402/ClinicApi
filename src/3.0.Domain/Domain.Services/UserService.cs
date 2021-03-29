@@ -4,26 +4,32 @@ using Domain.Core.Interfaces.Repositories;
 using Infrastructure.Repository;
 using Domain.Entities;
 using System.Threading.Tasks;
+using System.Linq.Expressions;
 
 namespace Domain.Services
 {
     public class UserService : IUserService
     {
-        /*public async Task<User> GetUserByCPF(int cpf)
-        {
-            using(UnitOfWork uow = new UnitOfWork())
-            {
-                return await uow.UserRepository.FindByExpressionAsync();                                                                                                                                                
-            }
-        }*/
 
-        public async Task<string> InsertUser(User user)
+        public async Task<User> GetUserToLogin(int clinicalUnitId, string taxNumber, string password)
         {
             using(UnitOfWork uow = new UnitOfWork())
             {
-                await uow.UserRepository.AddAsync(user);
-                await uow.Commit();                                                                                                                                                                 
-                return "Ok";
+                Expression<Func<Patient, bool>> PatientLogin = (p) => p.TaxNumber == taxNumber && p.Password == password;
+                Expression<Func<CompanyProfile, bool>> CompanyProfileLogin = (p) => p.TaxNumber == taxNumber && p.Password == password;
+
+                Patient patient = await uow.PatientRepository.FindByExpressionAsync(PatientLogin);
+
+                if (patient == null)
+                {
+                    CompanyProfile companyProfile = await uow.CompanyRepository.FindByExpressionAsync(CompanyProfileLogin);
+                    var user = companyProfile == null ? null : companyProfile;
+                    return user;
+                }
+                else
+                {
+                    return patient;
+                }
             }
         }
     }

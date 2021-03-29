@@ -17,13 +17,13 @@ namespace Domain.Services
             }
         }
 
-        public async Task<string> InsertClinicalUnit(ClinicalUnit ClinicalUnit)
+        public async Task<ClinicalUnit> InsertClinicalUnit(ClinicalUnit ClinicalUnit)
         {
             using(UnitOfWork uow = new UnitOfWork())
             {
-                await uow.ClinicalUnitRepository.AddAsync(ClinicalUnit);
-                await uow.Commit(); 
-                return "Ok";                                                                                                                                                                
+                ClinicalUnit entity = await uow.ClinicalUnitRepository.AddAsync(ClinicalUnit);
+                await uow.Commit();
+                return entity;                                                                                                                                                        
             }
         }
     }

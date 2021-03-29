@@ -12,7 +12,7 @@ namespace Domain.Core.Interfaces.Repositories
 
         Task<TEntity> GetByIdAsync(int id);
 
-        Task AddAsync(TEntity entity);
+        Task<TEntity> AddAsync(TEntity entity);
 
         Task<TEntity> FindByExpressionAsync(Expression<Func<TEntity, bool>> match);
 

@@ -10,7 +10,9 @@ namespace Infrastructure.Repository
     {
         private ClinicAppContext context = null;
         private Repository<ClinicalUnit> clinicalUnitRepository = null;
-        private Repository<User> userRepository = null;
+        private Repository<Patient> patientRepository = null;
+        private Repository<Specialist> specialistRepository = null;
+        private Repository<CompanyProfile> companyProfileRepository = null;
         private Repository<Schedule> scheduleRepository = null;
 
         public UnitOfWork()
@@ -27,23 +29,35 @@ namespace Infrastructure.Repository
         {
             get
             {
-                if (ClinicalUnitRepository == null)
+                if (clinicalUnitRepository == null)
                 {
                     clinicalUnitRepository = new Repository<ClinicalUnit>(context);
                 }
-                return ClinicalUnitRepository;
+                return clinicalUnitRepository;
             }
         }
 
-        public IRepository<User> UserRepository
+        public IRepository<Patient> PatientRepository
         {
             get
             {
-                if (userRepository == null)
+                if (patientRepository == null)
                 {
-                    userRepository = new Repository<User>(context);
+                    patientRepository = new Repository<Patient>(context);
                 }
-                return userRepository;
+                return patientRepository;
+            }
+        }
+
+        public IRepository<CompanyProfile> CompanyRepository
+        {
+            get
+            {
+                if (companyProfileRepository == null)
+                {
+                    companyProfileRepository = new Repository<CompanyProfile>(context);
+                }
+                return companyProfileRepository;
             }
         }
 

@@ -14,7 +14,7 @@ namespace Domain.Entities
 
         public int PatientId { get; private set; }
 
-        public ClinicalUnit ClinicalUnit { get; set; }
+        public ClinicalUnit ClinicalUnit { get; private set; }
 
         public int ClinicalUnitId { get; private set; }
 

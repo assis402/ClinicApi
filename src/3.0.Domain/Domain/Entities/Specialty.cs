@@ -9,9 +9,9 @@ namespace Domain.Entities
 {
     public class Specialty : Base
     {
-        public string Title { get; set; }
+        public string Title { get; private set; }
 
-        public int ClinicalUnitId { get; set; }
+        public int ClinicalUnitId { get; private set; }
 
         public Specialty(string title, int clinicalUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) : base(creationDate, updateDate, deletionDate)
         {
