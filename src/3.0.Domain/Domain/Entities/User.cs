@@ -4,6 +4,7 @@ using Domain.Validators;
 using Domain.Exceptions;
 using Domain.Enums;
 using Presentation.Utils.Messages;
+using Presentation.Utils;
 
 namespace Domain.Entities
 {
@@ -30,7 +31,7 @@ namespace Domain.Entities
         public User(string taxNumber, string password, string name, string email, string phoneNumber, UserRole role, int clinicalUnitId, DateTime creationDate, DateTime updateDate, DateTime? deletionDate) : base(creationDate, updateDate, deletionDate)
         {
             TaxNumber = taxNumber;
-            Password = password;
+            Password = CryptographyMD5.StringToMD5(password);
             Name = name;
             Email = email;
             PhoneNumber = phoneNumber;

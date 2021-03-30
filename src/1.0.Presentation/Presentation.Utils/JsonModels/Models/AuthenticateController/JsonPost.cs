@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Presentation.Utils.JsonModels.Exceptions;
 using Presentation.Utils.Messages;
 using Presentation.Utils.JsonModels.Validators.AuthenticateController;
+using Presentation.Utils;
 
 namespace Presentation.Utils.JsonModels.Models.AuthenticateController
 {
@@ -12,7 +13,13 @@ namespace Presentation.Utils.JsonModels.Models.AuthenticateController
 
         public string TaxNumber { get; set; }
 
-        public string Password { get; set; }
+        private string _password;
+
+        public string Password
+        {
+            get { return _password; }
+            set { _password = CryptographyMD5.StringToMD5(value); }
+        }
 
         public JsonPost()
         {
@@ -38,17 +45,16 @@ namespace Presentation.Utils.JsonModels.Models.AuthenticateController
             return true;
         }
 
-        /*
         public UserDTO JsonPostToDTO()
         {
             UserDTO UserDTO = new UserDTO
             {
                 TaxNumber = this.TaxNumber,
-                Password = this.Password
+                Password = this.Password,
+                ClinicalUnitId = this.ClinicalUnitId
             };
 
             return UserDTO;
         }
-        */
    }
 }

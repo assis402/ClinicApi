@@ -5855,11 +5855,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Repository\\Infrastructure.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Repository\\Infrastructure.Repository.csproj",
       "projectName": "Infrastructure.Repository",
-      "projectPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Repository\\Infrastructure.Repository.csproj",
+      "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Repository\\Infrastructure.Repository.csproj",
       "packagesPath": "C:\\Users\\matheus.alcantara\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Repository\\obj\\",
+      "outputPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5880,14 +5880,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain.Core\\Domain.Core.csproj": {
-              "projectPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain.Core\\Domain.Core.csproj"
+            "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain.Core\\Domain.Core.csproj": {
+              "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain.Core\\Domain.Core.csproj"
             },
-            "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj"
+            "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj"
             },
-            "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Data\\Infrastructure.Data.csproj": {
-              "projectPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Data\\Infrastructure.Data.csproj"
+            "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Data\\Infrastructure.Data.csproj": {
+              "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Data\\Infrastructure.Data.csproj"
             }
           }
         }

@@ -5,6 +5,6 @@ namespace Application.Interfaces
 {
     public interface IUserApplicationService
     {
-         Task<ClinicalUnitDTO> GetUserToLogin(int clinicalUnitId, string taxNumber, string password);
+         Task<UserDTO> GetUserToLogin(UserDTO userDTO);
     }
 }

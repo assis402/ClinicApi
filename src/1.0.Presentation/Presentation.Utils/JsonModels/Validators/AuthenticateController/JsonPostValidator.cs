@@ -27,7 +27,10 @@ namespace Presentation.Utils.JsonModels.Validators.AuthenticateController
                 .WithMessage(string.Format(ExceptionMessages.EXC003(),nameof(JsonPost.Password)))
 
                 .NotNull()
-                .WithMessage(string.Format(ExceptionMessages.EXC004(),nameof(JsonPost.Password)));
+                .WithMessage(string.Format(ExceptionMessages.EXC004(),nameof(JsonPost.Password)))
+
+                .Length(32)
+                .WithMessage(string.Format(ExceptionMessages.EXC017(),nameof(JsonPost.Password)));
         }
     }
 }

@@ -84,6 +84,9 @@ namespace Presentation.Utils.Messages
             return "No {0} with this identifier was found";
         }
        
-
+        public static string EXC017()
+        {
+            return "The {0} parameter is not encrypteds.";
+        }
     }
 }

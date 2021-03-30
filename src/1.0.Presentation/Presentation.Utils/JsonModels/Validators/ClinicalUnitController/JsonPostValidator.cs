@@ -43,13 +43,13 @@ namespace Presentation.Utils.JsonModels.Validators.ClinicalUnitController
 
             When(x => x.TaxNumber != null && x.TaxNumber.Length == 11, () => {
                 RuleFor(x => x.TaxNumber)
-                    .Must(x => UsefulFunctions.IsValidCPF(x))
+                    .Must(x => Utils.IsValidCPF(x))
                     .WithMessage(string.Format(ExceptionMessages.EXC007(),nameof(JsonPost.TaxNumber)));
             });
 
             When(x => x.TaxNumber != null && x.TaxNumber.Length == 14, () => {
                 RuleFor(x => x.TaxNumber)
-                    .Must(x => UsefulFunctions.IsValidCNPJ(x))
+                    .Must(x => Utils.IsValidCNPJ(x))
                     .WithMessage(string.Format(ExceptionMessages.EXC007(),nameof(JsonPost.TaxNumber)));
             });
         }

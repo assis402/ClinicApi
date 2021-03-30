@@ -66,11 +66,11 @@ namespace Presentation.API.Controllers
             }
             catch(DomainException ex)
             {
-                return BadRequest(Responses.DomainErrorMessage(ex.Message, ex.Errors));
+                return BadRequest(Responses.ErrorMessage(ex.Message, ex.Errors));
             }
             catch(InputJsonException ex)
             {
-                return BadRequest(Responses.DomainErrorMessage(ex.Message, ex.Errors));
+                return BadRequest(Responses.ErrorMessage(ex.Message, ex.Errors));
             }
             catch(Exception ex)
             {

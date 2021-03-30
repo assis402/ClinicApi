@@ -30,9 +30,8 @@ namespace Infrastructure.Repository
             get
             {
                 if (clinicalUnitRepository == null)
-                {
                     clinicalUnitRepository = new Repository<ClinicalUnit>(context);
-                }
+
                 return clinicalUnitRepository;
             }
         }
@@ -42,21 +41,19 @@ namespace Infrastructure.Repository
             get
             {
                 if (patientRepository == null)
-                {
                     patientRepository = new Repository<Patient>(context);
-                }
+
                 return patientRepository;
             }
         }
 
-        public IRepository<CompanyProfile> CompanyRepository
+        public IRepository<CompanyProfile> CompanyProfileRepository
         {
             get
             {
                 if (companyProfileRepository == null)
-                {
                     companyProfileRepository = new Repository<CompanyProfile>(context);
-                }
+
                 return companyProfileRepository;
             }
         }
@@ -66,9 +63,8 @@ namespace Infrastructure.Repository
             get
             {
                 if (scheduleRepository == null)
-                {
                     scheduleRepository = new Repository<Schedule>(context);
-                }
+
                 return scheduleRepository;
             }
         }

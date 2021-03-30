@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tj0vmOJyWLrnL5tcipwwM/6Go/Y6ZUAxE1a1EaQN2HhKm8RxpM7z04bB3Nf4lIsb+o9m7Gk1T816ZPGgzCyR1w==",
+  "dgSpecHash": "h8lBnSj4lvqRb5qaKTCOS+zUO6mEb/H1sAI77Rl9OanBnRruLVifOndcLnKahL/NCPF7dWQ6sCzoPIOuZo03Sw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.API\\Presentation.API.csproj",
+  "projectFilePath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.API\\Presentation.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matheus.alcantara\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\matheus.alcantara\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

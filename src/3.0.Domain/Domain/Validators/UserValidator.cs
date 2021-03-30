@@ -26,7 +26,7 @@ namespace Domain.Validators
                 .Length(11)
                 .WithMessage(string.Format(ExceptionMessages.EXC013(),nameof(User.TaxNumber),11))
 
-                .Must(x => UsefulFunctions.IsValidCPF(x))
+                .Must(x => Utils.IsValidCPF(x))
                 .WithMessage(string.Format(ExceptionMessages.EXC007(),nameof(User.TaxNumber)));
 
             RuleFor(x => x.Password)

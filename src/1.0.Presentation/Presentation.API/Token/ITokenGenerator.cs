@@ -1,9 +1,9 @@
-using Domain.Entities;
+using Application.DTO;
 
 namespace Presentation.API.Token
 {
     public interface ITokenGenerator
     {
-        string GenerateToken(User user);
+        string GenerateToken(UserDTO userDTO);
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using Application.DTO;
 using Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -35,33 +36,33 @@ namespace Presentation.API.Controllers
             {
                 inputJson.Validate();
                 
-                var ClinicalUnit = clinicalUnitApplicationService.GetClinicalUnitById(inputJson.ClinicalUnitId);
-                //mapper
-                if(ClinicalUnit == null)
+                var clinicalUnit = clinicalUnitApplicationService.GetClinicalUnitById(inputJson.ClinicalUnitId);
+
+                if(clinicalUnit == null)
                     return BadRequest(Responses.ErrorMessage(string.Format(ExceptionMessages.EXC016(),"Clinical Unit")));
 
-                var User = userApplicationService.GetUserToLogin(mapper)
+                UserDTO userDTO = inputJson.JsonPostToDTO();
 
-                if ()
+                var user = userApplicationService.GetUserToLogin(userDTO);
+
+                if (user != null)
                 {
                     var Data = new
                     {
-                        Token = tokenGenerator.GenerateToken(),
+                        Token = tokenGenerator.GenerateToken(user.Result),
                         TokenExpires = DateTime.UtcNow.AddHours(int.Parse(configuration["Jwt:HoursToExpire"]))
                     };
 
                     return Ok(Responses.SuccessMessage(InformationMessages.INF002(),Data));
                 }
                 else
-                {
                     return StatusCode(401, Responses.UnauthorizedErrorMessage());
-                }
             }
             catch(InputJsonException ex)
             {
                 return BadRequest(Responses.ErrorMessage(ex.Message, ex.Errors));
             }
-            catch(Exception)
+            catch(Exception ex)
             {
                 return StatusCode(500, Responses.ApplicationErrorMessage());
             }

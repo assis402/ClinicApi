@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj": {}
+    "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj": {
+    "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj",
         "projectName": "Presentation.Utils",
-        "projectPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj",
+        "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj",
         "packagesPath": "C:\\Users\\matheus.alcantara\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\obj\\",
+        "outputPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj": {
-                "projectPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj"
+              "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj": {
+                "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj": {
+    "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj",
         "projectName": "Application.DTO",
-        "projectPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj",
+        "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj",
         "packagesPath": "C:\\Users\\matheus.alcantara\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\obj\\",
+        "outputPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -130,14 +130,14 @@
         }
       }
     },
-    "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj": {
+    "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\matheus.alcantara\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -158,8 +158,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj": {
-                "projectPath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj"
+              "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj": {
+                "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\1.0.Presentation\\Presentation.Utils\\Presentation.Utils.csproj"
               }
             }
           }

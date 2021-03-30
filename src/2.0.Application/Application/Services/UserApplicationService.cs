@@ -18,10 +18,12 @@ namespace Application.Services
             this.UserService = UserService;    
         }
 
-        public async Task<UserDTO> GetUserToLogin(int clinicalUnitId, string taxNumber, string password)
+        public async Task<UserDTO> GetUserToLogin(UserDTO userDTO)
         {
-            User User = await UserService.GetUserToLogin(taxNumber, password);
-            return UserMapper.MapperToDTO(User);
+            User user = await UserService.GetUserToLogin(userDTO);
+            if (user == null)
+                return null;
+            return UserMapper.MapperToDTO(user);
         }
     }
 }

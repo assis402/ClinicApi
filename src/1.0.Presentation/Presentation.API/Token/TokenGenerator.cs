@@ -2,7 +2,7 @@ using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Domain.Entities;
+using Application.DTO;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
@@ -17,7 +17,7 @@ namespace Presentation.API.Token
             _configuration = configuration;
         }
 
-        public string GenerateToken(User user)
+        public string GenerateToken(UserDTO userDTO)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
 
@@ -27,8 +27,8 @@ namespace Presentation.API.Token
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Name, user.Name.ToString()),
-                    new Claim(ClaimTypes.Role, user.Role.ToString())
+                    new Claim(ClaimTypes.Name, userDTO.Name.ToString()),
+                    new Claim(ClaimTypes.Role, userDTO.Role.ToString())
                 }),
                 Expires = DateTime.UtcNow.AddHours(int.Parse(_configuration["Jwt:HoursToExpire"])),
 

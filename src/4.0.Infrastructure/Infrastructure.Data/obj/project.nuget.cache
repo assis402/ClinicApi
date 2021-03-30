@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ENSuFaRYJCB23dvBgzG9urWVpUWVl+XiNTctAFZCjL9LkQeFYOEzpuzsxEgrCerFgdUPUDUVyvH1sOXnC+iYKg==",
+  "dgSpecHash": "wbIdXtkCfvForPAgFrrnhfnmBnO8YcZN1zs0BhAwKqbUAYDwqaPnej7Z+rHqlT5zAA2gK0eZf+5PXu/p144Rcg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Data\\Infrastructure.Data.csproj",
+  "projectFilePath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Data\\Infrastructure.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matheus.alcantara\\.nuget\\packages\\extensions.fluentvalidation.br\\1.0.1\\extensions.fluentvalidation.br.1.0.1.nupkg.sha512",
     "C:\\Users\\matheus.alcantara\\.nuget\\packages\\fluentvalidation\\9.5.3\\fluentvalidation.9.5.3.nupkg.sha512",

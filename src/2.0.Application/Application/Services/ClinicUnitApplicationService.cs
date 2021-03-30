@@ -12,15 +12,15 @@ namespace Application.Services
         private readonly IClinicalUnitMapper ClinicalUnitMapper;
         private readonly IClinicalUnitService ClinicalUnitService;
 
-        public ClinicalUnitApplicationService(IClinicalUnitMapper ClinicalUnitMapper, IClinicalUnitService ClinicalUnitService)
+        public ClinicalUnitApplicationService(IClinicalUnitMapper clinicalUnitMapper, IClinicalUnitService clinicalUnitService)
         {
-            this.ClinicalUnitMapper = ClinicalUnitMapper;
-            this.ClinicalUnitService = ClinicalUnitService;    
+            ClinicalUnitMapper = clinicalUnitMapper;
+            ClinicalUnitService = clinicalUnitService;    
         }
 
-        public async Task<ClinicalUnitDTO> InsertClinicalUnit(ClinicalUnitDTO ClinicalUnitDTO)
+        public async Task<ClinicalUnitDTO> InsertClinicalUnit(ClinicalUnitDTO clinicalUnitDTO)
         {
-            ClinicalUnit ClinicalUnit = ClinicalUnitMapper.MapperToEntity(ClinicalUnitDTO);
+            ClinicalUnit ClinicalUnit = ClinicalUnitMapper.MapperToEntity(clinicalUnitDTO);
             ClinicalUnit = await ClinicalUnitService.InsertClinicalUnit(ClinicalUnit);
             return ClinicalUnitMapper.MapperToDTO(ClinicalUnit);
         }
