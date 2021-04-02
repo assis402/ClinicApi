@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4if22yfUWLKpCxtbckSynet0yPpVyasAK0iFr8Yj2k2ctG9nn7f2gTXCKObUJpUn/sQhFxEHja0DHor86yCM1g==",
+  "dgSpecHash": "0QzXbfaOaDeT0JiarDuq+zoBMGD1/fci3Y36U+M+wbAKdLyZkGkXHKelzEd6/YtRuCghR8LC/VMAnvhhpQLeuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj",
+  "projectFilePath": "C:\\Users\\assis\\Desktop\\DEV\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

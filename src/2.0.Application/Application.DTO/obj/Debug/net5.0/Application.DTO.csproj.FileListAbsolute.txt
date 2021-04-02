@@ -10,3 +10,15 @@ C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Appl
 C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.dll
 C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\ref\Application.DTO.dll
 C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.pdb
+C:\Users\assis\Desktop\DEV\ClinicApi\src\2.0.Application\Application.DTO\bin\Debug\net5.0\Application.DTO.deps.json
+C:\Users\assis\Desktop\DEV\ClinicApi\src\2.0.Application\Application.DTO\bin\Debug\net5.0\Application.DTO.dll
+C:\Users\assis\Desktop\DEV\ClinicApi\src\2.0.Application\Application.DTO\bin\Debug\net5.0\ref\Application.DTO.dll
+C:\Users\assis\Desktop\DEV\ClinicApi\src\2.0.Application\Application.DTO\bin\Debug\net5.0\Application.DTO.pdb
+C:\Users\assis\Desktop\DEV\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.csprojAssemblyReference.cache
+C:\Users\assis\Desktop\DEV\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\assis\Desktop\DEV\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.AssemblyInfoInputs.cache
+C:\Users\assis\Desktop\DEV\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.AssemblyInfo.cs
+C:\Users\assis\Desktop\DEV\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.csproj.CoreCompileInputs.cache
+C:\Users\assis\Desktop\DEV\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.dll
+C:\Users\assis\Desktop\DEV\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\ref\Application.DTO.dll
+C:\Users\assis\Desktop\DEV\ClinicApi\src\2.0.Application\Application.DTO\obj\Debug\net5.0\Application.DTO.pdb

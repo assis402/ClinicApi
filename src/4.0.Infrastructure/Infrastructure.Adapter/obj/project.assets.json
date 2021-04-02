@@ -118,25 +118,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\matheus.alcantara\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\assis\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Adapter\\Infrastructure.Adapter.csproj",
+      "projectUniqueName": "C:\\Users\\assis\\Desktop\\DEV\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Adapter\\Infrastructure.Adapter.csproj",
       "projectName": "Infrastructure.Adapter",
-      "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Adapter\\Infrastructure.Adapter.csproj",
-      "packagesPath": "C:\\Users\\matheus.alcantara\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Adapter\\obj\\",
+      "projectPath": "C:\\Users\\assis\\Desktop\\DEV\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Adapter\\Infrastructure.Adapter.csproj",
+      "packagesPath": "C:\\Users\\assis\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\assis\\Desktop\\DEV\\ClinicApi\\src\\4.0.Infrastructure\\Infrastructure.Adapter\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\matheus.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\assis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -149,11 +144,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj": {
-              "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj"
+            "C:\\Users\\assis\\Desktop\\DEV\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj": {
+              "projectPath": "C:\\Users\\assis\\Desktop\\DEV\\ClinicApi\\src\\2.0.Application\\Application.DTO\\Application.DTO.csproj"
             },
-            "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\matheus.alcantara\\Documents\\Curso C#\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj"
+            "C:\\Users\\assis\\Desktop\\DEV\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\assis\\Desktop\\DEV\\ClinicApi\\src\\3.0.Domain\\Domain\\Domain.csproj"
             }
           }
         }
@@ -182,7 +177,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

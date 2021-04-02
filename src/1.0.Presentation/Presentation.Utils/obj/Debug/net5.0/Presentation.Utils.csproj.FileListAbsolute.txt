@@ -13,3 +13,18 @@ C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\1.0.Presentation\Pre
 C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\1.0.Presentation\Presentation.Utils\obj\Debug\net5.0\Presentation.Utils.dll
 C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\1.0.Presentation\Presentation.Utils\obj\Debug\net5.0\ref\Presentation.Utils.dll
 C:\Users\matheus.alcantara\Documents\Curso C#\ClinicApi\src\1.0.Presentation\Presentation.Utils\obj\Debug\net5.0\Presentation.Utils.pdb
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\bin\Debug\net5.0\Presentation.Utils.deps.json
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\bin\Debug\net5.0\Presentation.Utils.dll
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\bin\Debug\net5.0\ref\Presentation.Utils.dll
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\bin\Debug\net5.0\Presentation.Utils.pdb
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\bin\Debug\net5.0\Application.DTO.dll
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\bin\Debug\net5.0\Application.DTO.pdb
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\obj\Debug\net5.0\Presentation.Utils.csprojAssemblyReference.cache
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\obj\Debug\net5.0\Presentation.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\obj\Debug\net5.0\Presentation.Utils.AssemblyInfoInputs.cache
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\obj\Debug\net5.0\Presentation.Utils.AssemblyInfo.cs
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\obj\Debug\net5.0\Presentation.Utils.csproj.CoreCompileInputs.cache
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\obj\Debug\net5.0\Presentation.Utils.csproj.CopyComplete
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\obj\Debug\net5.0\Presentation.Utils.dll
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\obj\Debug\net5.0\ref\Presentation.Utils.dll
+C:\Users\assis\Desktop\DEV\ClinicApi\src\1.0.Presentation\Presentation.Utils\obj\Debug\net5.0\Presentation.Utils.pdb
